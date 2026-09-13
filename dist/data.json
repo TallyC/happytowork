@@ -1,67 +1,7 @@
 {
   "days": {
-    "2026-09-13": {
-      "checkedAt": "2026-09-13T14:00:25.278Z",
-      "trains": [
-        {
-          "no": "4514",
-          "type": "區間",
-          "from": "吉安",
-          "to": "瑞穗",
-          "direction": "outbound",
-          "departure": "05:36",
-          "arrival": "06:41",
-          "status": null,
-          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/13&trainNo=4514"
-        },
-        {
-          "no": "306",
-          "type": "自強3000",
-          "from": "吉安",
-          "to": "瑞穗",
-          "direction": "outbound",
-          "departure": "06:29",
-          "arrival": "07:15",
-          "status": null,
-          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/13&trainNo=306"
-        },
-        {
-          "no": "4537",
-          "type": "區間",
-          "from": "瑞穗",
-          "to": "吉安",
-          "direction": "inbound",
-          "departure": "16:20",
-          "arrival": "17:58",
-          "status": null,
-          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/13&trainNo=4537"
-        },
-        {
-          "no": "431",
-          "type": "自強3000",
-          "from": "瑞穗",
-          "to": "花蓮",
-          "direction": "inbound",
-          "departure": "16:27",
-          "arrival": "17:20",
-          "status": null,
-          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/13&trainNo=431"
-        },
-        {
-          "no": "4543",
-          "type": "區間",
-          "from": "瑞穗",
-          "to": "吉安",
-          "direction": "inbound",
-          "departure": "17:26",
-          "arrival": "18:36",
-          "status": null,
-          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/13&trainNo=4543"
-        }
-      ]
-    },
     "2026-09-14": {
-      "checkedAt": "2026-09-13T13:56:57.505Z",
+      "checkedAt": "2026-09-13T23:05:48.711Z",
       "trains": [
         {
           "no": "4514",
@@ -119,93 +59,73 @@
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/14&trainNo=4543"
         }
       ]
+    },
+    "2026-09-15": {
+      "checkedAt": "2026-09-13T23:06:02.397Z",
+      "trains": [
+        {
+          "no": "4514",
+          "type": "區間",
+          "from": "吉安",
+          "to": "瑞穗",
+          "direction": "outbound",
+          "departure": "05:36",
+          "arrival": "06:41",
+          "status": null,
+          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/15&trainNo=4514"
+        },
+        {
+          "no": "306",
+          "type": "自強3000",
+          "from": "吉安",
+          "to": "瑞穗",
+          "direction": "outbound",
+          "departure": "06:29",
+          "arrival": "07:15",
+          "status": null,
+          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/15&trainNo=306"
+        },
+        {
+          "no": "4537",
+          "type": "區間",
+          "from": "瑞穗",
+          "to": "吉安",
+          "direction": "inbound",
+          "departure": "16:20",
+          "arrival": "17:58",
+          "status": null,
+          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/15&trainNo=4537"
+        },
+        {
+          "no": "431",
+          "type": "自強3000",
+          "from": "瑞穗",
+          "to": "花蓮",
+          "direction": "inbound",
+          "departure": "16:27",
+          "arrival": "17:20",
+          "status": null,
+          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/15&trainNo=431"
+        },
+        {
+          "no": "4543",
+          "type": "區間",
+          "from": "瑞穗",
+          "to": "吉安",
+          "direction": "inbound",
+          "departure": "17:26",
+          "arrival": "18:36",
+          "status": null,
+          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/15&trainNo=4543"
+        }
+      ]
     }
   },
   "weather": {
     "吉安鄉": {
       "url": "https://www.cwa.gov.tw/V8/C/W/Town/Town.html?TID=1001505",
-      "checkedAt": "2026-09-13T13:57:01.269Z",
+      "checkedAt": "2026-09-13T23:06:11.384Z",
       "hours": [
-        {
-          "date": "2026-09-13",
-          "time": "21:00",
-          "temperature": "26",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-13",
-          "time": "22:00",
-          "temperature": "26",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-13",
-          "time": "23:00",
-          "temperature": "25",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "00:00",
-          "temperature": "25",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "01:00",
-          "temperature": "25",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "02:00",
-          "temperature": "24",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "03:00",
-          "temperature": "24",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "04:00",
-          "temperature": "24",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "05:00",
-          "temperature": "23",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "06:00",
-          "temperature": "23",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
         {
           "date": "2026-09-14",
           "time": "07:00",
@@ -327,8 +247,40 @@
           "wind": "2 級"
         },
         {
+          "date": "2026-09-14",
+          "time": "22:00",
+          "temperature": "26",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-14",
+          "time": "23:00",
+          "temperature": "25",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
           "date": "2026-09-15",
           "time": "00:00",
+          "temperature": "25",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "01:00",
+          "temperature": "25",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "02:00",
           "temperature": "25",
           "rain": "20%",
           "description": "天氣圖示，晴",
@@ -344,8 +296,32 @@
         },
         {
           "date": "2026-09-15",
+          "time": "04:00",
+          "temperature": "24",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "05:00",
+          "temperature": "24",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
           "time": "06:00",
           "temperature": "24",
+          "rain": "20%",
+          "description": "天氣圖示，多雲",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "07:00",
+          "temperature": "25",
           "rain": "20%",
           "description": "天氣圖示，多雲",
           "wind": "2 級"
@@ -453,93 +429,37 @@
           "rain": "20%",
           "description": "天氣圖示，多雲",
           "wind": "≤1 級"
+        },
+        {
+          "date": "2026-09-17",
+          "time": "00:00",
+          "temperature": "26",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-09-17",
+          "time": "03:00",
+          "temperature": "25",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-09-17",
+          "time": "06:00",
+          "temperature": "25",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "≤1 級"
         }
       ]
     },
     "瑞穗鄉": {
       "url": "https://www.cwa.gov.tw/V8/C/W/Town/Town.html?TID=1001509",
-      "checkedAt": "2026-09-13T13:57:04.134Z",
+      "checkedAt": "2026-09-13T23:06:15.204Z",
       "hours": [
-        {
-          "date": "2026-09-13",
-          "time": "21:00",
-          "temperature": "25",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-13",
-          "time": "22:00",
-          "temperature": "24",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-13",
-          "time": "23:00",
-          "temperature": "24",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "00:00",
-          "temperature": "24",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "01:00",
-          "temperature": "24",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "02:00",
-          "temperature": "23",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "03:00",
-          "temperature": "23",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "04:00",
-          "temperature": "23",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "05:00",
-          "temperature": "22",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "06:00",
-          "temperature": "22",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
         {
           "date": "2026-09-14",
           "time": "07:00",
@@ -661,9 +581,41 @@
           "wind": "2 級"
         },
         {
+          "date": "2026-09-14",
+          "time": "22:00",
+          "temperature": "24",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-14",
+          "time": "23:00",
+          "temperature": "24",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
           "date": "2026-09-15",
           "time": "00:00",
           "temperature": "24",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "01:00",
+          "temperature": "23",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "02:00",
+          "temperature": "23",
           "rain": "20%",
           "description": "天氣圖示，晴",
           "wind": "2 級"
@@ -678,8 +630,32 @@
         },
         {
           "date": "2026-09-15",
+          "time": "04:00",
+          "temperature": "23",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "05:00",
+          "temperature": "23",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
           "time": "06:00",
           "temperature": "22",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "07:00",
+          "temperature": "23",
           "rain": "20%",
           "description": "天氣圖示，晴",
           "wind": "2 級"
@@ -787,93 +763,37 @@
           "rain": "20%",
           "description": "天氣圖示，陰",
           "wind": "≤1 級"
+        },
+        {
+          "date": "2026-09-17",
+          "time": "00:00",
+          "temperature": "24",
+          "rain": "20%",
+          "description": "天氣圖示，多雲",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-09-17",
+          "time": "03:00",
+          "temperature": "23",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-09-17",
+          "time": "06:00",
+          "temperature": "23",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "≤1 級"
         }
       ]
     },
     "花蓮市": {
       "url": "https://www.cwa.gov.tw/V8/C/W/Town/Town.html?TID=1001501",
-      "checkedAt": "2026-09-13T13:57:06.917Z",
+      "checkedAt": "2026-09-13T23:06:19.737Z",
       "hours": [
-        {
-          "date": "2026-09-13",
-          "time": "21:00",
-          "temperature": "27",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-13",
-          "time": "22:00",
-          "temperature": "27",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-13",
-          "time": "23:00",
-          "temperature": "26",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "00:00",
-          "temperature": "26",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "01:00",
-          "temperature": "26",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "02:00",
-          "temperature": "26",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "03:00",
-          "temperature": "25",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "04:00",
-          "temperature": "25",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "05:00",
-          "temperature": "25",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-14",
-          "time": "06:00",
-          "temperature": "25",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
         {
           "date": "2026-09-14",
           "time": "07:00",
@@ -995,8 +915,40 @@
           "wind": "3 級"
         },
         {
+          "date": "2026-09-14",
+          "time": "22:00",
+          "temperature": "27",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "3 級"
+        },
+        {
+          "date": "2026-09-14",
+          "time": "23:00",
+          "temperature": "27",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "3 級"
+        },
+        {
           "date": "2026-09-15",
           "time": "00:00",
+          "temperature": "26",
+          "rain": "20%",
+          "description": "天氣圖示，多雲",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "01:00",
+          "temperature": "26",
+          "rain": "20%",
+          "description": "天氣圖示，多雲",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "02:00",
           "temperature": "26",
           "rain": "20%",
           "description": "天氣圖示，多雲",
@@ -1012,8 +964,32 @@
         },
         {
           "date": "2026-09-15",
+          "time": "04:00",
+          "temperature": "25",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "05:00",
+          "temperature": "25",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
           "time": "06:00",
           "temperature": "25",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "07:00",
+          "temperature": "26",
           "rain": "20%",
           "description": "天氣圖示，晴",
           "wind": "2 級"
@@ -1121,14 +1097,38 @@
           "rain": "20%",
           "description": "天氣圖示，多雲",
           "wind": "≤1 級"
+        },
+        {
+          "date": "2026-09-17",
+          "time": "00:00",
+          "temperature": "26",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-09-17",
+          "time": "03:00",
+          "temperature": "26",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-17",
+          "time": "06:00",
+          "temperature": "25",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
         }
       ]
     }
   },
-  "attemptedAt": "2026-09-13T14:00:07.542Z",
+  "attemptedAt": "2026-09-13T23:05:32.118Z",
   "errors": [],
   "rail": {
     "text": "全線運行正常。",
-    "checkedAt": "2026-09-13T14:00:26.341Z"
+    "checkedAt": "2026-09-13T23:06:03.395Z"
   }
 }
