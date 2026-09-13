@@ -1,0 +1,1 @@
+{"name":"hualien-commute","private":true,"type":"module","scripts":{"start":"node server.mjs","collect":"node collector.mjs"},"dependencies":{"playwright":"1.58.2"}}
