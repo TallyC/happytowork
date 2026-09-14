@@ -1,7 +1,7 @@
 {
   "days": {
     "2026-09-14": {
-      "checkedAt": "2026-09-14T11:47:27.917Z",
+      "checkedAt": "2026-09-14T11:49:55.227Z",
       "trains": [
         {
           "no": "4514",
@@ -120,7 +120,7 @@
             "05:00",
             "09:00"
           ],
-          "checkedAt": "2026-09-14T11:47:15.423Z",
+          "checkedAt": "2026-09-14T11:49:41.734Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -207,7 +207,7 @@
             "16:00",
             "21:00"
           ],
-          "checkedAt": "2026-09-14T11:47:18.989Z",
+          "checkedAt": "2026-09-14T11:49:45.903Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -270,7 +270,7 @@
             "05:00",
             "09:00"
           ],
-          "checkedAt": "2026-09-14T11:47:22.669Z",
+          "checkedAt": "2026-09-14T11:49:49.631Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -341,7 +341,7 @@
             "16:00",
             "21:00"
           ],
-          "checkedAt": "2026-09-14T11:47:25.913Z",
+          "checkedAt": "2026-09-14T11:49:53.222Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         }
       ]
@@ -1411,10 +1411,10 @@
       ]
     }
   },
-  "attemptedAt": "2026-09-14T11:46:57.423Z",
+  "attemptedAt": "2026-09-14T11:49:23.435Z",
   "errors": [],
   "rail": {
     "text": "全線運行正常。",
-    "checkedAt": "2026-09-14T11:47:28.683Z"
+    "checkedAt": "2026-09-14T11:49:55.971Z"
   }
 }
