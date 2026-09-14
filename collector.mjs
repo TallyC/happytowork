@@ -7,8 +7,8 @@ let data;try{data=JSON.parse(await readFile(FILE,'utf8'))}catch{data={days:{},we
 data.attemptedAt=now.toISOString();data.errors=[];
 const configs=[{no:'4514',type:'區間',from:'吉安',to:'瑞穗',direction:'outbound'},{no:'306',type:'自強3000',from:'吉安',to:'瑞穗',direction:'outbound'},{no:'4537',type:'區間',from:'瑞穗',to:'吉安',direction:'inbound'},{no:'431',type:'自強3000',from:'瑞穗',to:'花蓮',direction:'inbound'},{no:'4543',type:'區間',from:'瑞穗',to:'吉安',direction:'inbound'}];
 const routeQueries=[
- {id:'hualien-taipei',label:'花蓮 ⇄ 臺北',from:'7000-花蓮',to:'1000-臺北',weather:['花蓮市'],outboundWindow:['05:00','09:00'],inboundWindow:['16:00','21:00']},
- {id:'hualien-luodong',label:'花蓮 ⇄ 羅東',from:'7000-花蓮',to:'7160-羅東',weather:['花蓮市'],outboundWindow:['05:00','09:00'],inboundWindow:['16:00','21:00']}
+ {id:'hualien-taipei',label:'花蓮 ⇄ 臺北',from:'7000-花蓮',to:'1000-臺北',weather:['花蓮市'],outboundWindow:['00:00','23:59'],inboundWindow:['00:00','23:59']},
+ {id:'hualien-luodong',label:'花蓮 ⇄ 羅東',from:'7000-花蓮',to:'7160-羅東',weather:['花蓮市'],outboundWindow:['00:00','23:59'],inboundWindow:['00:00','23:59']}
 ];
 const browser=await chromium.launch({headless:true});
 const context=await browser.newContext({locale:'zh-TW',timezoneId:'Asia/Taipei'});
@@ -17,7 +17,7 @@ async function visit(url,fn){const host=new URL(url).hostname;if(stopped.has(hos
 async function queryRoute(date,q,direction){const start=direction==='outbound'?q.from:q.to,end=direction==='outbound'?q.to:q.from;const window=direction==='outbound'?q.outboundWindow:q.inboundWindow;return visit('https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/gobytime',async page=>{
  await page.locator('#startStation').fill(start);await page.locator('#endStation').fill(end);await page.locator('#rideDate').fill(date.replaceAll('-','/'));await page.locator('#startTime').selectOption(window[0]);await page.locator('#endTime').selectOption(window[1]);await page.getByRole('button',{name:'查詢',exact:true}).click();await page.locator('table').filter({hasText:'建議搭乘車次'}).first().waitFor({timeout:30000});
  const rows=await page.locator('table').filter({hasText:'建議搭乘車次'}).first().locator('tr').evaluateAll(rs=>rs.slice(1).map(row=>{const cells=Array.from(row.querySelectorAll('td')).map(c=>c.innerText.replace(/\s+/g,' ').trim());const link=row.querySelector('a[href*="querybytrainno"]');const title=link?.innerText?.trim()||'';const no=title.match(/(\d{3,4})\s*$/)?.[1];const type=title.replace(/\s*\d{3,4}\s*$/,'').trim();return {title,no,type,departure:cells[1]||null,arrival:cells[2]||null,summary:cells[0]||null}}).filter(x=>x.no&&/^\d{2}:\d{2}$/.test(x.departure)&&/^\d{2}:\d{2}$/.test(x.arrival)));
- if(date===dates[0]){for(const train of rows.slice(0,12)){try{const detail=await queryTrainStatus(date,train.no,stationName(end));train.status=detail.status;train.milestones=detail.stations;train.statusCheckedAt=new Date().toISOString()}catch(e){data.errors.push(`${date} ${train.no} 動態：${e.message}`)}}}
+ if(date===dates[0]){for(const train of rows.slice(0,20)){try{const detail=await queryTrainStatus(date,train.no,stationName(end));train.status=detail.status;train.milestones=detail.stations;train.statusCheckedAt=new Date().toISOString()}catch(e){data.errors.push(`${date} ${train.no} 動態：${e.message}`)}}}
  return {id:q.id,label:q.label,from:start,to:end,direction,trains:rows,window,checkedAt:new Date().toISOString(),url:page.url()};
 })}
 const stationName=s=>String(s??'').replace(/^\d+-/,'');
