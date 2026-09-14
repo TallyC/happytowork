@@ -1,7 +1,7 @@
 {
   "days": {
     "2026-09-14": {
-      "checkedAt": "2026-09-13T23:05:48.711Z",
+      "checkedAt": "2026-09-14T01:00:02.956Z",
       "trains": [
         {
           "no": "4514",
@@ -124,16 +124,8 @@
   "weather": {
     "吉安鄉": {
       "url": "https://www.cwa.gov.tw/V8/C/W/Town/Town.html?TID=1001505",
-      "checkedAt": "2026-09-13T23:06:11.384Z",
+      "checkedAt": "2026-09-14T01:00:10.403Z",
       "hours": [
-        {
-          "date": "2026-09-14",
-          "time": "07:00",
-          "temperature": "25",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
         {
           "date": "2026-09-14",
           "time": "08:00",
@@ -322,6 +314,14 @@
           "date": "2026-09-15",
           "time": "07:00",
           "temperature": "25",
+          "rain": "20%",
+          "description": "天氣圖示，多雲",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "08:00",
+          "temperature": "26",
           "rain": "20%",
           "description": "天氣圖示，多雲",
           "wind": "2 級"
@@ -458,16 +458,8 @@
     },
     "瑞穗鄉": {
       "url": "https://www.cwa.gov.tw/V8/C/W/Town/Town.html?TID=1001509",
-      "checkedAt": "2026-09-13T23:06:15.204Z",
+      "checkedAt": "2026-09-14T01:00:13.951Z",
       "hours": [
-        {
-          "date": "2026-09-14",
-          "time": "07:00",
-          "temperature": "23",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
         {
           "date": "2026-09-14",
           "time": "08:00",
@@ -656,6 +648,14 @@
           "date": "2026-09-15",
           "time": "07:00",
           "temperature": "23",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
+          "time": "08:00",
+          "temperature": "24",
           "rain": "20%",
           "description": "天氣圖示，晴",
           "wind": "2 級"
@@ -792,16 +792,8 @@
     },
     "花蓮市": {
       "url": "https://www.cwa.gov.tw/V8/C/W/Town/Town.html?TID=1001501",
-      "checkedAt": "2026-09-13T23:06:19.737Z",
+      "checkedAt": "2026-09-14T01:00:17.825Z",
       "hours": [
-        {
-          "date": "2026-09-14",
-          "time": "07:00",
-          "temperature": "25",
-          "rain": "20%",
-          "description": "天氣圖示，晴",
-          "wind": "2 級"
-        },
         {
           "date": "2026-09-14",
           "time": "08:00",
@@ -996,6 +988,14 @@
         },
         {
           "date": "2026-09-15",
+          "time": "08:00",
+          "temperature": "27",
+          "rain": "20%",
+          "description": "天氣圖示，晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-15",
           "time": "09:00",
           "temperature": "28",
           "rain": "20%",
@@ -1125,10 +1125,10 @@
       ]
     }
   },
-  "attemptedAt": "2026-09-13T23:05:32.118Z",
+  "attemptedAt": "2026-09-14T00:59:46.608Z",
   "errors": [],
   "rail": {
     "text": "全線運行正常。",
-    "checkedAt": "2026-09-13T23:06:03.395Z"
+    "checkedAt": "2026-09-14T01:00:03.788Z"
   }
 }
