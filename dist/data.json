@@ -1,7 +1,7 @@
 {
   "days": {
     "2026-09-14": {
-      "checkedAt": "2026-09-14T11:41:11.750Z",
+      "checkedAt": "2026-09-14T11:47:27.917Z",
       "trains": [
         {
           "no": "4514",
@@ -57,6 +57,292 @@
           "arrival": "18:36",
           "status": null,
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/14&trainNo=4543"
+        }
+      ],
+      "routes": [
+        {
+          "id": "hualien-taipei",
+          "label": "花蓮 ⇄ 臺北",
+          "from": "7000-花蓮",
+          "to": "1000-臺北",
+          "direction": "outbound",
+          "trains": [
+            {
+              "title": "普悠瑪 203",
+              "no": "203",
+              "type": "普悠瑪",
+              "departure": "05:50",
+              "arrival": "08:18",
+              "summary": "普悠瑪 203 ( 花蓮 → 樹林 ) 大學生7折"
+            },
+            {
+              "title": "區間快 4013",
+              "no": "4013",
+              "type": "區間快",
+              "departure": "06:05",
+              "arrival": "09:15",
+              "summary": "區間快 4013 ( 花蓮 → 樹林 )"
+            },
+            {
+              "title": "普悠瑪 401",
+              "no": "401",
+              "type": "普悠瑪",
+              "departure": "06:36",
+              "arrival": "08:48",
+              "summary": "普悠瑪 401 ( 臺東 → 樹林 )"
+            },
+            {
+              "title": "自強(3000) 207",
+              "no": "207",
+              "type": "自強(3000)",
+              "departure": "07:30",
+              "arrival": "10:08",
+              "summary": "自強(3000) 207 ( 壽豐 → 樹林 ) 大學生7折"
+            },
+            {
+              "title": "自強 209",
+              "no": "209",
+              "type": "自強",
+              "departure": "08:04",
+              "arrival": "10:52",
+              "summary": "自強 209 ( 花蓮 → 樹林 ) 大學生7折"
+            },
+            {
+              "title": "自強(3000) 407",
+              "no": "407",
+              "type": "自強(3000)",
+              "departure": "08:57",
+              "arrival": "11:28",
+              "summary": "自強(3000) 407 ( 臺東 → 樹林 ) 大學生8折"
+            }
+          ],
+          "window": [
+            "05:00",
+            "09:00"
+          ],
+          "checkedAt": "2026-09-14T11:47:15.423Z",
+          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
+        },
+        {
+          "id": "hualien-taipei",
+          "label": "花蓮 ⇄ 臺北",
+          "from": "1000-臺北",
+          "to": "7000-花蓮",
+          "direction": "inbound",
+          "trains": [
+            {
+              "title": "自強(3000) 434",
+              "no": "434",
+              "type": "自強(3000)",
+              "departure": "16:02",
+              "arrival": "18:26",
+              "summary": "自強(3000) 434 ( 樹林 → 新左營 ) 大學生7折"
+            },
+            {
+              "title": "自強(3000) 442",
+              "no": "442",
+              "type": "自強(3000)",
+              "departure": "17:05",
+              "arrival": "19:43",
+              "summary": "自強(3000) 442 ( 樹林 → 臺東 ) 大學生7折"
+            },
+            {
+              "title": "普悠瑪 282",
+              "no": "282",
+              "type": "普悠瑪",
+              "departure": "17:40",
+              "arrival": "19:59",
+              "summary": "普悠瑪 282 ( 彰化 → 花蓮 )"
+            },
+            {
+              "title": "自強(3000) 438",
+              "no": "438",
+              "type": "自強(3000)",
+              "departure": "18:34",
+              "arrival": "20:49",
+              "summary": "自強(3000) 438 ( 樹林 → 臺東 ) 大學生7折"
+            },
+            {
+              "title": "自強 246",
+              "no": "246",
+              "type": "自強",
+              "departure": "18:40",
+              "arrival": "22:00",
+              "summary": "自強 246 ( 樹林 → 花蓮 ) 大學生5折"
+            },
+            {
+              "title": "區間快 4046",
+              "no": "4046",
+              "type": "區間快",
+              "departure": "19:00",
+              "arrival": "22:31",
+              "summary": "區間快 4046 ( 新豐 → 花蓮 )"
+            },
+            {
+              "title": "太魯閣 248",
+              "no": "248",
+              "type": "太魯閣",
+              "departure": "19:25",
+              "arrival": "21:43",
+              "summary": "太魯閣 248 ( 樹林 → 花蓮 ) 大學生7折"
+            },
+            {
+              "title": "普悠瑪 448",
+              "no": "448",
+              "type": "普悠瑪",
+              "departure": "20:04",
+              "arrival": "22:21",
+              "summary": "普悠瑪 448 ( 樹林 → 臺東 ) 大學生7折"
+            },
+            {
+              "title": "自強(3000) 252",
+              "no": "252",
+              "type": "自強(3000)",
+              "departure": "20:40",
+              "arrival": "23:11",
+              "summary": "自強(3000) 252 ( 樹林 → 壽豐 ) 大學生5折"
+            }
+          ],
+          "window": [
+            "16:00",
+            "21:00"
+          ],
+          "checkedAt": "2026-09-14T11:47:18.989Z",
+          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
+        },
+        {
+          "id": "hualien-luodong",
+          "label": "花蓮 ⇄ 羅東",
+          "from": "7000-花蓮",
+          "to": "7160-羅東",
+          "direction": "outbound",
+          "trains": [
+            {
+              "title": "普悠瑪 203",
+              "no": "203",
+              "type": "普悠瑪",
+              "departure": "05:50",
+              "arrival": "06:49",
+              "summary": "普悠瑪 203 ( 花蓮 → 樹林 ) 大學生7折"
+            },
+            {
+              "title": "區間快 4013",
+              "no": "4013",
+              "type": "區間快",
+              "departure": "06:05",
+              "arrival": "07:22",
+              "summary": "區間快 4013 ( 花蓮 → 樹林 )"
+            },
+            {
+              "title": "自強(3000) 207",
+              "no": "207",
+              "type": "自強(3000)",
+              "departure": "07:30",
+              "arrival": "08:32",
+              "summary": "自強(3000) 207 ( 壽豐 → 樹林 ) 大學生7折"
+            },
+            {
+              "title": "區間 4133",
+              "no": "4133",
+              "type": "區間",
+              "departure": "07:34",
+              "arrival": "09:20",
+              "summary": "區間 4133 ( 花蓮 → 宜蘭 )"
+            },
+            {
+              "title": "自強 209",
+              "no": "209",
+              "type": "自強",
+              "departure": "08:04",
+              "arrival": "09:12",
+              "summary": "自強 209 ( 花蓮 → 樹林 ) 大學生7折"
+            },
+            {
+              "title": "自強(3000) 407",
+              "no": "407",
+              "type": "自強(3000)",
+              "departure": "08:57",
+              "arrival": "09:58",
+              "summary": "自強(3000) 407 ( 臺東 → 樹林 ) 大學生8折"
+            }
+          ],
+          "window": [
+            "05:00",
+            "09:00"
+          ],
+          "checkedAt": "2026-09-14T11:47:22.669Z",
+          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
+        },
+        {
+          "id": "hualien-luodong",
+          "label": "花蓮 ⇄ 羅東",
+          "from": "7160-羅東",
+          "to": "7000-花蓮",
+          "direction": "inbound",
+          "trains": [
+            {
+              "title": "自強(3000) 432",
+              "no": "432",
+              "type": "自強(3000)",
+              "departure": "16:29",
+              "arrival": "17:26",
+              "summary": "自強(3000) 432 ( 樹林 → 新左營 ) 大學生7折"
+            },
+            {
+              "title": "區間快 4032",
+              "no": "4032",
+              "type": "區間快",
+              "departure": "16:43",
+              "arrival": "18:14",
+              "summary": "區間快 4032 ( 樹林 → 花蓮 )"
+            },
+            {
+              "title": "自強(3000) 434",
+              "no": "434",
+              "type": "自強(3000)",
+              "departure": "17:29",
+              "arrival": "18:26",
+              "summary": "自強(3000) 434 ( 樹林 → 新左營 ) 大學生7折"
+            },
+            {
+              "title": "自強 238",
+              "no": "238",
+              "type": "自強",
+              "departure": "17:55",
+              "arrival": "19:12",
+              "summary": "自強 238 ( 樹林 → 花蓮 ) 大學生5折"
+            },
+            {
+              "title": "區間 4206",
+              "no": "4206",
+              "type": "區間",
+              "departure": "18:15",
+              "arrival": "19:54",
+              "summary": "區間 4206 ( 宜蘭 → 花蓮 )"
+            },
+            {
+              "title": "自強(3000) 442",
+              "no": "442",
+              "type": "自強(3000)",
+              "departure": "18:41",
+              "arrival": "19:43",
+              "summary": "自強(3000) 442 ( 樹林 → 臺東 ) 大學生7折"
+            },
+            {
+              "title": "普悠瑪 282",
+              "no": "282",
+              "type": "普悠瑪",
+              "departure": "19:02",
+              "arrival": "19:59",
+              "summary": "普悠瑪 282 ( 彰化 → 花蓮 )"
+            }
+          ],
+          "window": [
+            "16:00",
+            "21:00"
+          ],
+          "checkedAt": "2026-09-14T11:47:25.913Z",
+          "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         }
       ]
     },
@@ -1125,10 +1411,10 @@
       ]
     }
   },
-  "attemptedAt": "2026-09-14T11:40:56.968Z",
+  "attemptedAt": "2026-09-14T11:46:57.423Z",
   "errors": [],
   "rail": {
     "text": "全線運行正常。",
-    "checkedAt": "2026-09-14T11:41:12.438Z"
+    "checkedAt": "2026-09-14T11:47:28.683Z"
   }
 }
