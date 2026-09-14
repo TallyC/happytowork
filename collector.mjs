@@ -6,17 +6,27 @@ const dates=[dateOf(now),dateOf(new Date(+now+86400000))];
 let data;try{data=JSON.parse(await readFile(FILE,'utf8'))}catch{data={days:{},weather:{}}}
 data.attemptedAt=now.toISOString();data.errors=[];
 const configs=[{no:'4514',type:'區間',from:'吉安',to:'瑞穗',direction:'outbound'},{no:'306',type:'自強3000',from:'吉安',to:'瑞穗',direction:'outbound'},{no:'4537',type:'區間',from:'瑞穗',to:'吉安',direction:'inbound'},{no:'431',type:'自強3000',from:'瑞穗',to:'花蓮',direction:'inbound'},{no:'4543',type:'區間',from:'瑞穗',to:'吉安',direction:'inbound'}];
+const routeQueries=[
+ {id:'hualien-taipei',label:'花蓮 ⇄ 臺北',from:'7000-花蓮',to:'1000-臺北',weather:['花蓮市'],outboundWindow:['05:00','09:00'],inboundWindow:['16:00','21:00']},
+ {id:'hualien-luodong',label:'花蓮 ⇄ 羅東',from:'7000-花蓮',to:'7160-羅東',weather:['花蓮市'],outboundWindow:['05:00','09:00'],inboundWindow:['16:00','21:00']}
+];
 const browser=await chromium.launch({headless:true});
 const context=await browser.newContext({locale:'zh-TW',timezoneId:'Asia/Taipei'});
 let stopped=new Set();
 async function visit(url,fn){const host=new URL(url).hostname;if(stopped.has(host))throw Error('來源暫停：先前遭阻擋');const page=await context.newPage();try{const response=await page.goto(url,{waitUntil:'domcontentloaded',timeout:45000});if([403,429].includes(response?.status())){stopped.add(host);throw Error('來源拒絕存取，停止本輪擷取')}if(!response?.ok())throw Error('來源連線失敗');const text=await page.locator('body').innerText();if(/verify you are human|access denied|驗證您是人類|too many requests/i.test(text)){stopped.add(host);throw Error('來源要求驗證，停止本輪擷取')}return await fn(page)}finally{await page.close();await new Promise(r=>setTimeout(r,2000))}}
+async function queryRoute(date,q,direction){const start=direction==='outbound'?q.from:q.to,end=direction==='outbound'?q.to:q.from;const window=direction==='outbound'?q.outboundWindow:q.inboundWindow;return visit('https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/gobytime',async page=>{
+ await page.locator('#startStation').fill(start);await page.locator('#endStation').fill(end);await page.locator('#rideDate').fill(date.replaceAll('-','/'));await page.locator('#startTime').selectOption(window[0]);await page.locator('#endTime').selectOption(window[1]);await page.getByRole('button',{name:'查詢',exact:true}).click();await page.locator('table').filter({hasText:'建議搭乘車次'}).first().waitFor({timeout:30000});
+ const rows=await page.locator('table').filter({hasText:'建議搭乘車次'}).first().locator('tr').evaluateAll(rs=>rs.slice(1).map(row=>{const cells=Array.from(row.querySelectorAll('td')).map(c=>c.innerText.replace(/\s+/g,' ').trim());const link=row.querySelector('a[href*="querybytrainno"]');const title=link?.innerText?.trim()||'';const no=title.match(/(\d{3,4})\s*$/)?.[1];const type=title.replace(/\s*\d{3,4}\s*$/,'').trim();return {title,no,type,departure:cells[1]||null,arrival:cells[2]||null,summary:cells[0]||null}}).filter(x=>x.no&&/^\d{2}:\d{2}$/.test(x.departure)&&/^\d{2}:\d{2}$/.test(x.arrival)));
+ return {id:q.id,label:q.label,from:start,to:end,direction,trains:rows,window,checkedAt:new Date().toISOString(),url:page.url()};
+})}
 try{
  for(const date of dates){const previous=data.days[date];if(date!==dates[0]&&previous&&Date.now()-Date.parse(previous.checkedAt)<6*3600000)continue;
  const trains=[];let failed=false;
  for(const c of configs){try{const url=`https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=${date.replaceAll('-','/')}&trainNo=${c.no}`;
  const result=await visit(url,async page=>{await page.getByRole('columnheader',{name:'狀態',exact:true}).waitFor({timeout:20000});const rows=await page.locator('table tr').evaluateAll(rows=>rows.map(row=>Array.from(row.querySelectorAll('td')).map(c=>c.innerText.trim())));const from=rows.find(r=>r[0]===c.from),to=rows.find(r=>r[0]===c.to);if(!from||!to||!/^\d{2}:\d{2}$/.test(from[2])||!/^\d{2}:\d{2}$/.test(to[1]))throw Error('車站或時刻欄位缺漏');return {...c,departure:from[2],arrival:to[1],status:from[3]||null,url}});trains.push(result);
  }catch(e){failed=true;data.errors.push(`${date} ${c.no}：${e.message}`);console.warn(`${date} ${c.no}: ${e.message}`)}}
- if(!failed)data.days[date]={checkedAt:new Date().toISOString(),trains};else if(previous)data.days[date]={...previous,error:true};
+ const routes=[];for(const q of routeQueries){for(const direction of ['outbound','inbound']){try{routes.push(await queryRoute(date,q,direction))}catch(e){data.errors.push(`${date} ${q.id} ${direction}：${e.message}`);console.warn(`${date} ${q.id} ${direction}: ${e.message}`)}}}
+ if(!failed)data.days[date]={checkedAt:new Date().toISOString(),trains,routes};else if(previous)data.days[date]={...previous,error:true};
  }
  try{data.rail=await visit('https://www.railway.gov.tw/tra-tip-web/tip',async page=>{const text=await page.locator('dl').filter({hasText:'路線運行狀態'}).innerText();return {text:text.replace('路線運行狀態','').replace('詳細資訊','').trim(),checkedAt:new Date().toISOString()}})}catch(e){data.errors.push('台鐵公告：'+e.message)}
  for(const [name,id] of [['吉安鄉','1001505'],['瑞穗鄉','1001509'],['花蓮市','1001501']]){const old=data.weather[name];if(old&&Date.now()-Date.parse(old.checkedAt)<3600000)continue;
