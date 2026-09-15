@@ -1,0 +1,20 @@
+/* Mobile keeps the train and live state visible without poster-sized cards. */
+@media (max-width: 620px) {
+  main { padding: 16px 12px 34px; }
+  .command-deck { padding: 18px 15px 15px; }
+  .deck-copy h1 { font-size: 27px; line-height: 1.16; }
+  .trip-form { margin-top: 17px; }
+  .main-board, .next-panel, .weather-section, .all-trains-section { padding: 16px; }
+  .board-head h2, .section-heading h2 { font-size: 22px; }
+  .hero-train { margin-top: 16px; padding: 15px; }
+  .hero-times { gap: 10px; margin-top: 5px; }
+  .hero-times strong { font-size: 40px; }
+  .hero-arrow { font-size: 21px; }
+  .status-line { margin-top: 10px; padding: 8px 9px; }
+  .route-journey { margin-top: 13px; }
+  .route-stop { flex-basis: 58px; }
+  .journey-key { padding-top: 11px; }
+  .next-time { font-size: 45px; }
+  .weather-stop { min-height: 112px; padding: 14px; }
+  .train-card { padding: 14px; }
+}

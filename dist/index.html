@@ -6,7 +6,8 @@
   <title>花東通勤艙｜列車與沿線天氣</title>
   <meta name="description" content="輸入起點與終點，自動整理台鐵車次、官方行駛狀態與沿線天氣。">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230d2635'/%3E%3Cpath d='M10 38h44M16 28h32M22 18h20' stroke='%237ee0cf' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css?v=202609150720">
+  <link rel="stylesheet" href="style.css?v=202609151650">
+  <link rel="stylesheet" href="compact.css?v=202609151700">
 </head>
 <body>
   <header class="topbar"><a class="brand" href="."><span class="brand-mark">↗</span><span>花東通勤艙</span><small>RAIL / WEATHER</small></a><div class="top-meta"><span class="live-dot"></span><span>資料自動更新</span><span id="clock"></span></div></header>
@@ -20,7 +21,7 @@
       <aside class="next-panel"><div class="panel-label">LIVE DECISION</div><h2 id="focus-title">現在先看這班</h2><div id="next-train" class="next-train"></div><div id="upcoming-train" class="upcoming-train"></div><div class="panel-divider"></div><div class="panel-label">RAIL NOTICE</div><p id="rail-status" class="rail-status">尚未取得</p><p class="panel-foot">公告與動態均來自台鐵官方頁面。出發前請再次確認。</p></aside></section>
     <section class="weather-section"><div class="section-heading"><div><p class="kicker">WEATHER ALONG THE WAY</p><h2>列車走到哪裡，天氣就看到哪裡</h2></div><span id="weather-note">沿線預報</span></div><div id="weather" class="weather-rail"></div></section>
     <section id="alternatives" class="all-trains-section"><div class="section-heading"><div><p class="kicker">OTHER DEPARTURES</p><h2>其他可選班次</h2></div><span id="collection-info"></span></div><div id="trains" class="train-grid"></div></section>
-    <details class="method"><summary>資料怎麼來、多久更新一次？</summary><div id="method-copy"><p>網站先查台鐵官方路線班表，再逐一查詢今天班次的官方車次動態；不需要你輸入車次編號。</p><p>列車與動態約每 10 分鐘更新，頁面會顯示實際取回時間。天氣依中央氣象署逐 3 小時預報整理；遇到來源限制或資料過期會明確標示。</p></div></details>
+    <details class="method"><summary>資料怎麼來、多久更新一次？</summary><div id="method-copy"><p>網站先查台鐵官方路線班表，再逐一查詢今天班次的官方車次動態；不需要你輸入車次編號。</p><p>台鐵資料在每日 05:07–07:57 與 14:07–18:57 每 10 分鐘重新擷取；頁面每分鐘讀取一次最新快照。天氣依中央氣象署逐 3 小時預報整理；遇到來源限制或資料過期會明確標示。</p></div></details>
     <footer>資料來源：<a href="https://www.railway.gov.tw/tra-tip-web/tip" target="_blank" rel="noopener">國營臺灣鐵路</a> · <a href="https://www.cwa.gov.tw/" target="_blank" rel="noopener">中央氣象署</a></footer>
-  </main><script type="module" src="app.js?v=202609150720"></script>
+  </main><script type="module" src="app.js?v=202609151650"></script>
 </body></html>

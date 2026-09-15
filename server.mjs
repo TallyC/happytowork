@@ -1,3 +1,3 @@
 import http from 'node:http';import {readFile} from 'node:fs/promises';
-const files={'/':'index.html','/index.html':'index.html','/app.js':'app.js','/style.css':'style.css','/data.json':'data.json'};
+const files={'/':'index.html','/index.html':'index.html','/app.js':'app.js','/style.css':'style.css','/compact.css':'compact.css','/data.json':'data.json'};
 http.createServer(async(req,res)=>{const p=new URL(req.url,'http://localhost').pathname,f=files[p];if(!f){res.writeHead(404);res.end('Not found');return}try{const content=await readFile(new URL('./dist/'+f,import.meta.url));res.writeHead(200,{'Content-Type':f.endsWith('.html')?'text/html; charset=utf-8':f.endsWith('.js')?'text/javascript; charset=utf-8':f.endsWith('.css')?'text/css; charset=utf-8':'application/json; charset=utf-8','Cache-Control':'no-store'});res.end(content)}catch{res.writeHead(503);res.end('Data unavailable')}}).listen(4173,'127.0.0.1',()=>console.log('http://127.0.0.1:4173'));
