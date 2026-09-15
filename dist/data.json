@@ -1,7 +1,7 @@
 {
   "days": {
     "2026-09-15": {
-      "checkedAt": "2026-09-15T09:10:17.292Z",
+      "checkedAt": "2026-09-15T09:40:52.347Z",
       "trains": [
         {
           "no": "4514",
@@ -105,7 +105,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-09-15T09:09:05.200Z",
+          "statusCheckedAt": "2026-09-15T09:39:54.296Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/15&trainNo=4514"
         },
         {
@@ -270,7 +270,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-09-15T09:09:08.050Z",
+          "statusCheckedAt": "2026-09-15T09:39:56.893Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/15&trainNo=306"
         },
         {
@@ -283,10 +283,10 @@
           "arrival": "17:58",
           "status": null,
           "lastReported": {
-            "name": "萬榮",
-            "arrival": "17:12",
-            "departure": "17:13",
-            "status": "誤點 1 分"
+            "name": "志學",
+            "arrival": "17:48",
+            "departure": "17:49",
+            "status": "準點"
           },
           "milestones": [
             {
@@ -389,13 +389,13 @@
               "name": "光復",
               "arrival": "16:52",
               "departure": "17:06",
-              "status": "誤點 1 分"
+              "status": null
             },
             {
               "name": "萬榮",
               "arrival": "17:12",
               "departure": "17:13",
-              "status": "誤點 1 分"
+              "status": null
             },
             {
               "name": "鳳林",
@@ -437,7 +437,7 @@
               "name": "志學",
               "arrival": "17:48",
               "departure": "17:49",
-              "status": null
+              "status": "準點"
             },
             {
               "name": "吉安",
@@ -452,7 +452,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-09-15T09:09:10.626Z",
+          "statusCheckedAt": "2026-09-15T09:39:59.385Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/15&trainNo=4537"
         },
         {
@@ -463,12 +463,12 @@
           "direction": "inbound",
           "departure": "16:27",
           "arrival": "17:20",
-          "status": "準點",
+          "status": "誤點 1 分",
           "lastReported": {
-            "name": "花蓮",
-            "arrival": "17:20",
-            "departure": "17:23",
-            "status": "準點"
+            "name": "羅東",
+            "arrival": "18:21",
+            "departure": "18:22",
+            "status": "誤點 1 分"
           },
           "milestones": [
             {
@@ -589,19 +589,19 @@
               "name": "壽豐",
               "arrival": "17:05",
               "departure": "17:07",
-              "status": "準點"
+              "status": null
             },
             {
               "name": "花蓮",
               "arrival": "17:20",
               "departure": "17:23",
-              "status": "準點"
+              "status": "誤點 1 分"
             },
             {
               "name": "羅東",
               "arrival": "18:21",
               "departure": "18:22",
-              "status": null
+              "status": "誤點 1 分"
             },
             {
               "name": "宜蘭",
@@ -640,7 +640,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-09-15T09:09:13.226Z",
+          "statusCheckedAt": "2026-09-15T09:40:01.882Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/15&trainNo=431"
         },
         {
@@ -653,23 +653,23 @@
           "arrival": "18:36",
           "status": null,
           "lastReported": {
-            "name": "三民",
-            "arrival": "17:17",
-            "departure": "17:17",
-            "status": "準點"
+            "name": "光復",
+            "arrival": "17:44",
+            "departure": "17:46",
+            "status": "誤點 1 分"
           },
           "milestones": [
             {
               "name": "玉里",
               "arrival": "17:07",
               "departure": "17:07",
-              "status": "準點"
+              "status": null
             },
             {
               "name": "三民",
               "arrival": "17:17",
               "departure": "17:17",
-              "status": "準點"
+              "status": null
             },
             {
               "name": "瑞穗",
@@ -693,7 +693,7 @@
               "name": "光復",
               "arrival": "17:44",
               "departure": "17:46",
-              "status": null
+              "status": "誤點 1 分"
             },
             {
               "name": "萬榮",
@@ -750,7 +750,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-09-15T09:09:15.807Z",
+          "statusCheckedAt": "2026-09-15T09:40:04.411Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/15&trainNo=4543"
         }
       ],
@@ -896,41 +896,7 @@
               "type": "自強",
               "departure": "14:22",
               "arrival": "17:35",
-              "summary": "自強 277 ( 花蓮 → 斗南 ) 大學生5折",
-              "status": null,
-              "lastReported": {
-                "name": "汐止",
-                "arrival": "17:17",
-                "departure": "17:18",
-                "status": "準點"
-              },
-              "milestones": [
-                {
-                  "name": "花蓮",
-                  "arrival": "14:22",
-                  "departure": "14:22",
-                  "status": null
-                },
-                {
-                  "name": "羅東",
-                  "arrival": "15:36",
-                  "departure": "15:37",
-                  "status": null
-                },
-                {
-                  "name": "宜蘭",
-                  "arrival": "15:45",
-                  "departure": "15:47",
-                  "status": null
-                },
-                {
-                  "name": "臺北",
-                  "arrival": "17:35",
-                  "departure": "17:38",
-                  "status": null
-                }
-              ],
-              "statusCheckedAt": "2026-09-15T09:09:20.345Z"
+              "summary": "自強 277 ( 花蓮 → 斗南 ) 大學生5折"
             },
             {
               "title": "自強(3000) 421",
@@ -949,9 +915,9 @@
               "summary": "莒光 653 ( 臺東 → 彰化 ) 大學生5折",
               "status": null,
               "lastReported": {
-                "name": "礁溪",
-                "arrival": "17:11",
-                "departure": "17:13",
+                "name": "福隆",
+                "arrival": "17:45",
+                "departure": "17:47",
                 "status": "準點"
               },
               "milestones": [
@@ -977,7 +943,7 @@
                   "name": "宜蘭",
                   "arrival": "17:01",
                   "departure": "17:03",
-                  "status": "誤點 1 分"
+                  "status": null
                 },
                 {
                   "name": "臺北",
@@ -986,206 +952,14 @@
                   "status": null
                 }
               ],
-              "statusCheckedAt": "2026-09-15T09:09:22.923Z"
-            },
-            {
-              "title": "自強(3000) 423",
-              "no": "423",
-              "type": "自強(3000)",
-              "departure": "15:25",
-              "arrival": "17:53",
-              "summary": "自強(3000) 423 ( 新左營 → 樹林 )",
-              "status": null,
-              "lastReported": {
-                "name": "南港",
-                "arrival": "17:40",
-                "departure": "17:41",
-                "status": "準點"
-              },
-              "milestones": [
-                {
-                  "name": "臺東",
-                  "arrival": "13:17",
-                  "departure": "13:20",
-                  "status": null
-                },
-                {
-                  "name": "花蓮",
-                  "arrival": "15:22",
-                  "departure": "15:25",
-                  "status": null
-                },
-                {
-                  "name": "羅東",
-                  "arrival": "16:23",
-                  "departure": "16:25",
-                  "status": null
-                },
-                {
-                  "name": "宜蘭",
-                  "arrival": "16:31",
-                  "departure": "16:33",
-                  "status": "誤點 3 分"
-                },
-                {
-                  "name": "臺北",
-                  "arrival": "17:53",
-                  "departure": "17:55",
-                  "status": null
-                }
-              ],
-              "statusCheckedAt": "2026-09-15T09:09:25.505Z"
-            },
-            {
-              "title": "自強(3000) 477",
-              "no": "477",
-              "type": "自強(3000)",
-              "departure": "16:05",
-              "arrival": "18:38",
-              "summary": "自強(3000) 477 ( 臺東 → 員林 )",
-              "status": null,
-              "lastReported": {
-                "name": "宜蘭",
-                "arrival": "17:11",
-                "departure": "17:13",
-                "status": "準點"
-              },
-              "milestones": [
-                {
-                  "name": "臺東",
-                  "arrival": "13:56",
-                  "departure": "13:56",
-                  "status": null
-                },
-                {
-                  "name": "花蓮",
-                  "arrival": "15:57",
-                  "departure": "16:05",
-                  "status": null
-                },
-                {
-                  "name": "羅東",
-                  "arrival": "17:03",
-                  "departure": "17:05",
-                  "status": "誤點 1 分"
-                },
-                {
-                  "name": "宜蘭",
-                  "arrival": "17:11",
-                  "departure": "17:13",
-                  "status": "準點"
-                },
-                {
-                  "name": "臺北",
-                  "arrival": "18:38",
-                  "departure": "18:41",
-                  "status": null
-                }
-              ],
-              "statusCheckedAt": "2026-09-15T09:09:28.091Z"
-            },
-            {
-              "title": "自強 281",
-              "no": "281",
-              "type": "自強",
-              "departure": "16:23",
-              "arrival": "19:25",
-              "summary": "自強 281 ( 花蓮 → 屏東 ) 大學生5折"
-            },
-            {
-              "title": "太魯閣 231",
-              "no": "231",
-              "type": "太魯閣",
-              "departure": "16:45",
-              "arrival": "19:07",
-              "summary": "太魯閣 231 ( 花蓮 → 樹林 ) 大學生8折"
-            },
-            {
-              "title": "自強(3000) 431",
-              "no": "431",
-              "type": "自強(3000)",
-              "departure": "17:23",
-              "arrival": "19:49",
-              "summary": "自強(3000) 431 ( 新左營 → 樹林 ) 大學生8折"
-            },
-            {
-              "title": "自強(3000) 283",
-              "no": "283",
-              "type": "自強(3000)",
-              "departure": "17:43",
-              "arrival": "20:15",
-              "summary": "自強(3000) 283 ( 壽豐 → 斗六 ) 大學生5折"
-            },
-            {
-              "title": "自強(3000) 285",
-              "no": "285",
-              "type": "自強(3000)",
-              "departure": "18:15",
-              "arrival": "20:43",
-              "summary": "自強(3000) 285 ( 花蓮 → 彰化 ) 大學生5折"
-            },
-            {
-              "title": "普悠瑪 235",
-              "no": "235",
-              "type": "普悠瑪",
-              "departure": "18:32",
-              "arrival": "21:19",
-              "summary": "普悠瑪 235 ( 花蓮 → 樹林 ) 大學生5折"
-            },
-            {
-              "title": "自強(3000) 439",
-              "no": "439",
-              "type": "自強(3000)",
-              "departure": "19:06",
-              "arrival": "21:34",
-              "summary": "自強(3000) 439 ( 臺東 → 樹林 ) 大學生7折"
-            },
-            {
-              "title": "自強(3000) 441",
-              "no": "441",
-              "type": "自強(3000)",
-              "departure": "19:19",
-              "arrival": "21:38",
-              "summary": "自強(3000) 441 ( 新左營 → 樹林 ) 大學生7折"
-            },
-            {
-              "title": "區間快 4037",
-              "no": "4037",
-              "type": "區間快",
-              "departure": "19:24",
-              "arrival": "22:52",
-              "summary": "區間快 4037 ( 花蓮 → 桃園 )"
-            },
-            {
-              "title": "自強(3000) 445",
-              "no": "445",
-              "type": "自強(3000)",
-              "departure": "20:36",
-              "arrival": "23:07",
-              "summary": "自強(3000) 445 ( 新左營 → 樹林 ) 大學生5折"
-            },
-            {
-              "title": "區間快 4041",
-              "no": "4041",
-              "type": "區間快",
-              "departure": "21:20",
-              "arrival": "00:08",
-              "summary": "區間快 4041 ( 臺東 → 樹林 )"
-            },
-            {
-              "title": "普悠瑪 447",
-              "no": "447",
-              "type": "普悠瑪",
-              "departure": "21:53",
-              "arrival": "00:15",
-              "summary": "普悠瑪 447 ( 臺東 → 樹林 ) 大學生5折"
+              "statusCheckedAt": "2026-09-15T09:40:08.718Z"
             }
           ],
           "window": [
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-09-15T09:09:28.091Z",
+          "checkedAt": "2026-09-15T09:40:08.718Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -1348,10 +1122,10 @@
               "summary": "區間快 4032 ( 樹林 → 花蓮 )",
               "status": null,
               "lastReported": {
-                "name": "南澳",
-                "arrival": "17:11",
-                "departure": "17:13",
-                "status": "誤點 1 分"
+                "name": "新城",
+                "arrival": "17:57",
+                "departure": "17:58",
+                "status": "準點"
               },
               "milestones": [
                 {
@@ -1379,7 +1153,7 @@
                   "status": null
                 }
               ],
-              "statusCheckedAt": "2026-09-15T09:09:34.913Z"
+              "statusCheckedAt": "2026-09-15T09:40:14.960Z"
             },
             {
               "title": "自強(3000) 432",
@@ -1387,47 +1161,7 @@
               "type": "自強(3000)",
               "departure": "15:00",
               "arrival": "17:26",
-              "summary": "自強(3000) 432 ( 樹林 → 新左營 ) 大學生7折",
-              "status": "誤點 6 分",
-              "lastReported": {
-                "name": "花蓮",
-                "arrival": "17:26",
-                "departure": "17:29",
-                "status": "誤點 6 分"
-              },
-              "milestones": [
-                {
-                  "name": "臺北",
-                  "arrival": "14:55",
-                  "departure": "15:00",
-                  "status": null
-                },
-                {
-                  "name": "宜蘭",
-                  "arrival": "16:19",
-                  "departure": "16:21",
-                  "status": null
-                },
-                {
-                  "name": "羅東",
-                  "arrival": "16:27",
-                  "departure": "16:29",
-                  "status": "誤點 5 分"
-                },
-                {
-                  "name": "花蓮",
-                  "arrival": "17:26",
-                  "departure": "17:29",
-                  "status": "誤點 6 分"
-                },
-                {
-                  "name": "臺東",
-                  "arrival": "19:20",
-                  "departure": "19:30",
-                  "status": null
-                }
-              ],
-              "statusCheckedAt": "2026-09-15T09:09:37.489Z"
+              "summary": "自強(3000) 432 ( 樹林 → 新左營 ) 大學生7折"
             },
             {
               "title": "自強 238",
@@ -1438,9 +1172,9 @@
               "summary": "自強 238 ( 樹林 → 花蓮 ) 大學生5折",
               "status": null,
               "lastReported": {
-                "name": "福隆",
-                "arrival": "17:07",
-                "departure": "17:09",
+                "name": "宜蘭",
+                "arrival": "17:44",
+                "departure": "17:45",
                 "status": "誤點 4 分"
               },
               "milestones": [
@@ -1454,7 +1188,7 @@
                   "name": "宜蘭",
                   "arrival": "17:44",
                   "departure": "17:45",
-                  "status": null
+                  "status": "誤點 4 分"
                 },
                 {
                   "name": "羅東",
@@ -1469,7 +1203,7 @@
                   "status": null
                 }
               ],
-              "statusCheckedAt": "2026-09-15T09:09:40.336Z"
+              "statusCheckedAt": "2026-09-15T09:40:17.416Z"
             },
             {
               "title": "自強(3000) 434",
@@ -1478,11 +1212,11 @@
               "departure": "16:02",
               "arrival": "18:26",
               "summary": "自強(3000) 434 ( 樹林 → 新左營 ) 大學生7折",
-              "status": null,
+              "status": "準點",
               "lastReported": {
-                "name": "宜蘭",
-                "arrival": "17:19",
-                "departure": "17:21",
+                "name": "花蓮",
+                "arrival": "18:26",
+                "departure": "18:29",
                 "status": "準點"
               },
               "milestones": [
@@ -1496,19 +1230,19 @@
                   "name": "宜蘭",
                   "arrival": "17:19",
                   "departure": "17:21",
-                  "status": "準點"
+                  "status": null
                 },
                 {
                   "name": "羅東",
                   "arrival": "17:27",
                   "departure": "17:29",
-                  "status": null
+                  "status": "誤點 1 分"
                 },
                 {
                   "name": "花蓮",
                   "arrival": "18:26",
                   "departure": "18:29",
-                  "status": null
+                  "status": "準點"
                 },
                 {
                   "name": "臺東",
@@ -1517,7 +1251,7 @@
                   "status": null
                 }
               ],
-              "statusCheckedAt": "2026-09-15T09:09:43.172Z"
+              "statusCheckedAt": "2026-09-15T09:40:19.918Z"
             },
             {
               "title": "自強(3000) 442",
@@ -1525,7 +1259,47 @@
               "type": "自強(3000)",
               "departure": "17:05",
               "arrival": "19:43",
-              "summary": "自強(3000) 442 ( 樹林 → 臺東 ) 大學生7折"
+              "summary": "自強(3000) 442 ( 樹林 → 臺東 ) 大學生7折",
+              "status": null,
+              "lastReported": {
+                "name": "瑞芳",
+                "arrival": "17:40",
+                "departure": "17:41",
+                "status": "誤點 1 分"
+              },
+              "milestones": [
+                {
+                  "name": "臺北",
+                  "arrival": "17:03",
+                  "departure": "17:05",
+                  "status": null
+                },
+                {
+                  "name": "宜蘭",
+                  "arrival": "18:31",
+                  "departure": "18:33",
+                  "status": null
+                },
+                {
+                  "name": "羅東",
+                  "arrival": "18:39",
+                  "departure": "18:41",
+                  "status": null
+                },
+                {
+                  "name": "花蓮",
+                  "arrival": "19:43",
+                  "departure": "19:46",
+                  "status": null
+                },
+                {
+                  "name": "臺東",
+                  "arrival": "21:40",
+                  "departure": "21:40",
+                  "status": null
+                }
+              ],
+              "statusCheckedAt": "2026-09-15T09:40:22.446Z"
             },
             {
               "title": "普悠瑪 282",
@@ -1612,7 +1386,7 @@
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-09-15T09:09:43.172Z",
+          "checkedAt": "2026-09-15T09:40:22.446Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -1804,35 +1578,7 @@
               "type": "區間",
               "departure": "15:39",
               "arrival": "17:16",
-              "summary": "區間 4207 ( 花蓮 → 宜蘭 )",
-              "status": null,
-              "lastReported": {
-                "name": "冬山",
-                "arrival": "17:11",
-                "departure": "17:11",
-                "status": "準點"
-              },
-              "milestones": [
-                {
-                  "name": "花蓮",
-                  "arrival": "15:39",
-                  "departure": "15:39",
-                  "status": null
-                },
-                {
-                  "name": "羅東",
-                  "arrival": "17:16",
-                  "departure": "17:18",
-                  "status": null
-                },
-                {
-                  "name": "宜蘭",
-                  "arrival": "17:29",
-                  "departure": "17:29",
-                  "status": null
-                }
-              ],
-              "statusCheckedAt": "2026-09-15T09:09:50.956Z"
+              "summary": "區間 4207 ( 花蓮 → 宜蘭 )"
             },
             {
               "title": "自強(3000) 477",
@@ -1848,41 +1594,7 @@
               "type": "自強",
               "departure": "16:23",
               "arrival": "17:33",
-              "summary": "自強 281 ( 花蓮 → 屏東 ) 大學生5折",
-              "status": null,
-              "lastReported": {
-                "name": "蘇澳新",
-                "arrival": "17:22",
-                "departure": "17:24",
-                "status": "誤點 1 分"
-              },
-              "milestones": [
-                {
-                  "name": "花蓮",
-                  "arrival": "16:23",
-                  "departure": "16:23",
-                  "status": null
-                },
-                {
-                  "name": "羅東",
-                  "arrival": "17:33",
-                  "departure": "17:35",
-                  "status": null
-                },
-                {
-                  "name": "宜蘭",
-                  "arrival": "17:43",
-                  "departure": "17:45",
-                  "status": null
-                },
-                {
-                  "name": "臺北",
-                  "arrival": "19:25",
-                  "departure": "19:30",
-                  "status": null
-                }
-              ],
-              "statusCheckedAt": "2026-09-15T09:09:53.798Z"
+              "summary": "自強 281 ( 花蓮 → 屏東 ) 大學生5折"
             },
             {
               "title": "區間快 4033",
@@ -1893,9 +1605,9 @@
               "summary": "區間快 4033 ( 花蓮 → 宜蘭 )",
               "status": null,
               "lastReported": {
-                "name": "南澳",
-                "arrival": "17:20",
-                "departure": "17:26",
+                "name": "蘇澳新",
+                "arrival": "17:42",
+                "departure": "17:43",
                 "status": "準點"
               },
               "milestones": [
@@ -1918,7 +1630,7 @@
                   "status": null
                 }
               ],
-              "statusCheckedAt": "2026-09-15T09:09:56.616Z"
+              "statusCheckedAt": "2026-09-15T09:40:28.715Z"
             },
             {
               "title": "太魯閣 231",
@@ -1960,7 +1672,7 @@
                   "status": null
                 }
               ],
-              "statusCheckedAt": "2026-09-15T09:09:59.433Z"
+              "statusCheckedAt": "2026-09-15T09:40:31.264Z"
             },
             {
               "title": "自強(3000) 431",
@@ -1968,7 +1680,47 @@
               "type": "自強(3000)",
               "departure": "17:23",
               "arrival": "18:21",
-              "summary": "自強(3000) 431 ( 新左營 → 樹林 ) 大學生8折"
+              "summary": "自強(3000) 431 ( 新左營 → 樹林 ) 大學生8折",
+              "status": "誤點 1 分",
+              "lastReported": {
+                "name": "羅東",
+                "arrival": "18:21",
+                "departure": "18:22",
+                "status": "誤點 1 分"
+              },
+              "milestones": [
+                {
+                  "name": "臺東",
+                  "arrival": "15:06",
+                  "departure": "15:10",
+                  "status": null
+                },
+                {
+                  "name": "花蓮",
+                  "arrival": "17:20",
+                  "departure": "17:23",
+                  "status": "誤點 1 分"
+                },
+                {
+                  "name": "羅東",
+                  "arrival": "18:21",
+                  "departure": "18:22",
+                  "status": "誤點 1 分"
+                },
+                {
+                  "name": "宜蘭",
+                  "arrival": "18:28",
+                  "departure": "18:30",
+                  "status": null
+                },
+                {
+                  "name": "臺北",
+                  "arrival": "19:49",
+                  "departure": "19:52",
+                  "status": null
+                }
+              ],
+              "statusCheckedAt": "2026-09-15T09:40:33.776Z"
             },
             {
               "title": "區間 4227",
@@ -1976,7 +1728,35 @@
               "type": "區間",
               "departure": "17:33",
               "arrival": "19:32",
-              "summary": "區間 4227 ( 花蓮 → 宜蘭 )"
+              "summary": "區間 4227 ( 花蓮 → 宜蘭 )",
+              "status": null,
+              "lastReported": {
+                "name": "景美",
+                "arrival": "17:44",
+                "departure": "17:44",
+                "status": "準點"
+              },
+              "milestones": [
+                {
+                  "name": "花蓮",
+                  "arrival": "17:33",
+                  "departure": "17:33",
+                  "status": null
+                },
+                {
+                  "name": "羅東",
+                  "arrival": "19:32",
+                  "departure": "19:33",
+                  "status": null
+                },
+                {
+                  "name": "宜蘭",
+                  "arrival": "19:44",
+                  "departure": "19:44",
+                  "status": null
+                }
+              ],
+              "statusCheckedAt": "2026-09-15T09:40:36.333Z"
             },
             {
               "title": "自強(3000) 283",
@@ -2055,7 +1835,7 @@
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-09-15T09:09:59.434Z",
+          "checkedAt": "2026-09-15T09:40:36.333Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -2239,35 +2019,7 @@
               "type": "區間",
               "departure": "15:33",
               "arrival": "17:19",
-              "summary": "區間 4184 ( 宜蘭 → 花蓮 )",
-              "status": null,
-              "lastReported": {
-                "name": "北埔",
-                "arrival": "17:11",
-                "departure": "17:12",
-                "status": "準點"
-              },
-              "milestones": [
-                {
-                  "name": "宜蘭",
-                  "arrival": "15:21",
-                  "departure": "15:21",
-                  "status": null
-                },
-                {
-                  "name": "羅東",
-                  "arrival": "15:32",
-                  "departure": "15:33",
-                  "status": null
-                },
-                {
-                  "name": "花蓮",
-                  "arrival": "17:19",
-                  "departure": "17:19",
-                  "status": null
-                }
-              ],
-              "statusCheckedAt": "2026-09-15T09:10:06.772Z"
+              "summary": "區間 4184 ( 宜蘭 → 花蓮 )"
             },
             {
               "title": "自強(3000) 432",
@@ -2275,47 +2027,7 @@
               "type": "自強(3000)",
               "departure": "16:29",
               "arrival": "17:26",
-              "summary": "自強(3000) 432 ( 樹林 → 新左營 ) 大學生7折",
-              "status": "誤點 6 分",
-              "lastReported": {
-                "name": "花蓮",
-                "arrival": "17:26",
-                "departure": "17:29",
-                "status": "誤點 6 分"
-              },
-              "milestones": [
-                {
-                  "name": "臺北",
-                  "arrival": "14:55",
-                  "departure": "15:00",
-                  "status": null
-                },
-                {
-                  "name": "宜蘭",
-                  "arrival": "16:19",
-                  "departure": "16:21",
-                  "status": null
-                },
-                {
-                  "name": "羅東",
-                  "arrival": "16:27",
-                  "departure": "16:29",
-                  "status": "誤點 5 分"
-                },
-                {
-                  "name": "花蓮",
-                  "arrival": "17:26",
-                  "departure": "17:29",
-                  "status": "誤點 6 分"
-                },
-                {
-                  "name": "臺東",
-                  "arrival": "19:20",
-                  "departure": "19:30",
-                  "status": null
-                }
-              ],
-              "statusCheckedAt": "2026-09-15T09:10:09.609Z"
+              "summary": "自強(3000) 432 ( 樹林 → 新左營 ) 大學生7折"
             },
             {
               "title": "區間快 4032",
@@ -2326,10 +2038,10 @@
               "summary": "區間快 4032 ( 樹林 → 花蓮 )",
               "status": null,
               "lastReported": {
-                "name": "南澳",
-                "arrival": "17:11",
-                "departure": "17:13",
-                "status": "誤點 1 分"
+                "name": "新城",
+                "arrival": "17:57",
+                "departure": "17:58",
+                "status": "準點"
               },
               "milestones": [
                 {
@@ -2357,7 +2069,7 @@
                   "status": null
                 }
               ],
-              "statusCheckedAt": "2026-09-15T09:10:12.446Z"
+              "statusCheckedAt": "2026-09-15T09:40:42.764Z"
             },
             {
               "title": "自強(3000) 434",
@@ -2366,11 +2078,11 @@
               "departure": "17:29",
               "arrival": "18:26",
               "summary": "自強(3000) 434 ( 樹林 → 新左營 ) 大學生7折",
-              "status": null,
+              "status": "準點",
               "lastReported": {
-                "name": "宜蘭",
-                "arrival": "17:19",
-                "departure": "17:21",
+                "name": "花蓮",
+                "arrival": "18:26",
+                "departure": "18:29",
                 "status": "準點"
               },
               "milestones": [
@@ -2384,19 +2096,19 @@
                   "name": "宜蘭",
                   "arrival": "17:19",
                   "departure": "17:21",
-                  "status": "準點"
+                  "status": null
                 },
                 {
                   "name": "羅東",
                   "arrival": "17:27",
                   "departure": "17:29",
-                  "status": null
+                  "status": "誤點 1 分"
                 },
                 {
                   "name": "花蓮",
                   "arrival": "18:26",
                   "departure": "18:29",
-                  "status": null
+                  "status": "準點"
                 },
                 {
                   "name": "臺東",
@@ -2405,7 +2117,7 @@
                   "status": null
                 }
               ],
-              "statusCheckedAt": "2026-09-15T09:10:15.282Z"
+              "statusCheckedAt": "2026-09-15T09:40:45.287Z"
             },
             {
               "title": "自強 238",
@@ -2413,7 +2125,41 @@
               "type": "自強",
               "departure": "17:55",
               "arrival": "19:12",
-              "summary": "自強 238 ( 樹林 → 花蓮 ) 大學生5折"
+              "summary": "自強 238 ( 樹林 → 花蓮 ) 大學生5折",
+              "status": null,
+              "lastReported": {
+                "name": "宜蘭",
+                "arrival": "17:44",
+                "departure": "17:45",
+                "status": "誤點 5 分"
+              },
+              "milestones": [
+                {
+                  "name": "臺北",
+                  "arrival": "15:51",
+                  "departure": "15:53",
+                  "status": null
+                },
+                {
+                  "name": "宜蘭",
+                  "arrival": "17:44",
+                  "departure": "17:45",
+                  "status": "誤點 5 分"
+                },
+                {
+                  "name": "羅東",
+                  "arrival": "17:53",
+                  "departure": "17:55",
+                  "status": null
+                },
+                {
+                  "name": "花蓮",
+                  "arrival": "19:12",
+                  "departure": "19:12",
+                  "status": null
+                }
+              ],
+              "statusCheckedAt": "2026-09-15T09:40:47.803Z"
             },
             {
               "title": "區間 4206",
@@ -2421,7 +2167,30 @@
               "type": "區間",
               "departure": "18:15",
               "arrival": "19:54",
-              "summary": "區間 4206 ( 宜蘭 → 花蓮 )"
+              "summary": "區間 4206 ( 宜蘭 → 花蓮 )",
+              "status": null,
+              "lastReported": null,
+              "milestones": [
+                {
+                  "name": "宜蘭",
+                  "arrival": "18:03",
+                  "departure": "18:03",
+                  "status": null
+                },
+                {
+                  "name": "羅東",
+                  "arrival": "18:14",
+                  "departure": "18:15",
+                  "status": null
+                },
+                {
+                  "name": "花蓮",
+                  "arrival": "19:54",
+                  "departure": "19:54",
+                  "status": null
+                }
+              ],
+              "statusCheckedAt": "2026-09-15T09:40:50.322Z"
             },
             {
               "title": "自強(3000) 442",
@@ -2524,7 +2293,7 @@
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-09-15T09:10:15.282Z",
+          "checkedAt": "2026-09-15T09:40:50.322Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         }
       ]
@@ -5480,10 +5249,10 @@
       ]
     }
   },
-  "attemptedAt": "2026-09-15T09:09:00.593Z",
+  "attemptedAt": "2026-09-15T09:39:46.125Z",
   "errors": [],
   "rail": {
     "text": "全線運行正常。",
-    "checkedAt": "2026-09-15T09:10:49.187Z"
+    "checkedAt": "2026-09-15T09:40:52.849Z"
   }
 }
