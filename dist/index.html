@@ -3,24 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>花東通勤艙｜列車與沿線天氣</title>
-  <meta name="description" content="輸入起點與終點，自動整理台鐵車次、官方行駛狀態與沿線天氣。">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230d2635'/%3E%3Cpath d='M10 38h44M16 28h32M22 18h20' stroke='%237ee0cf' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+  <title>花東通勤｜列車與沿線天氣</title>
+  <meta name="description" content="查詢花東通勤列車的時刻、官方行駛狀態與沿線天氣。">
   <link rel="stylesheet" href="style.css?v=202609151650">
-  <link rel="stylesheet" href="compact.css?v=202609151754">
+  <link rel="stylesheet" href="compact.css?v=202609160930">
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="."><span class="brand-mark">↗</span><span>花東通勤艙</span><small>RAIL / WEATHER</small></a><div class="top-meta"><span class="live-dot"></span><span>資料自動更新</span><span id="clock"></span></div></header>
+  <header class="topbar"><a class="brand" href="."><span class="brand-mark">↗</span><span>花東通勤</span></a><div class="top-meta"><span class="live-dot"></span><span id="clock"></span></div></header>
   <main>
-    <section class="command-deck"><div class="deck-copy"><p class="kicker">YOUR DAILY RIDE</p><h1>先告訴我，你要從哪裡到哪裡。</h1><p>系統會自動整理車次、官方行駛狀態與沿線天氣。</p></div>
-      <form id="trip-form" class="trip-form"><div class="station-field"><label for="from">出發站</label><input id="from" autocomplete="off" placeholder="例如 花蓮" value="吉安"></div><button type="button" id="swap" class="swap" aria-label="交換起點與終點">⇄</button><div class="station-field"><label for="to">到達站</label><input id="to" autocomplete="off" placeholder="例如 臺北" value="瑞穗"></div><div class="trip-date"><label for="date">日期</label><input id="date" type="date"></div><button class="primary" type="submit">整理我的行程 <span>→</span></button></form>
+    <section class="command-deck"><div class="deck-copy"><p class="kicker">行程查詢</p><h1>從哪裡，到哪裡？</h1></div>
+      <form id="trip-form" class="trip-form"><div class="station-field"><label for="from">出發站</label><input id="from" autocomplete="off" placeholder="例如 花蓮" value="吉安"></div><button type="button" id="swap" class="swap" aria-label="交換起點與終點">⇄</button><div class="station-field"><label for="to">到達站</label><input id="to" autocomplete="off" placeholder="例如 臺北" value="瑞穗"></div><div class="trip-date"><label for="date">日期</label><input id="date" type="date"></div><button class="primary" type="submit">查看班次</button></form>
       <div class="saved-routes" id="saved-routes" aria-label="常用路線"></div>
     </section>
-    <section class="status-strip data-status" role="status"><span id="freshness">正在讀取最新資料…</span><button id="reload-data" type="button" aria-label="重新讀取最新公開快照">↻ 重新讀取快照</button></section>
-    <section class="trip-console"><div class="console-head"><div><p class="kicker">TRAINS NEARBY</p><h2 id="journey-title">吉安 → 瑞穗</h2></div><div class="direction-tabs"><button id="outbound" aria-pressed="true">去程</button><button id="inbound" aria-pressed="false">回程</button></div></div><div class="mode-note" id="mode-note">狀態會以官方回報為準；沒有回報時會清楚標示。</div><div class="nearby-heading"><div><p class="kicker">CHOOSE A TRAIN</p><h3>相鄰班次</h3></div><span id="collection-info"></span></div><div id="train-picker" class="train-picker" aria-label="相鄰班次"></div><div id="route-timeline" class="route-timeline" aria-label="相鄰列車時間軸"></div><div id="selected-train" class="selected-train"></div></section>
-    <section class="weather-section moving-weather-section"><div class="section-heading"><div><p class="kicker">WEATHER WITH THE TRAIN</p><h2>這班車沿線天氣</h2></div><span id="weather-note">跟著列車位置更新</span></div><div id="weather" class="weather-rail"></div></section>
-    <section class="rail-notice"><p class="kicker">RAIL NOTICE</p><p id="rail-status" class="rail-status">尚未取得</p></section>
-    <details class="method"><summary>資料怎麼來、多久更新一次？</summary><div id="method-copy"><p>網站先查台鐵官方路線班表，再逐一查詢今天班次的官方車次動態；不需要你輸入車次編號。</p><p>台鐵資料在每日 05:07–07:57 與 14:07–23:57 每 10 分鐘重新擷取；頁面每分鐘讀取一次最新快照。天氣依中央氣象署逐 3 小時預報整理；遇到來源限制或資料過期會明確標示。</p></div></details>
+    <section class="status-strip data-status" role="status"><span id="freshness">正在讀取列車資料…</span><button id="reload-data" type="button" aria-label="重新讀取最新公開快照">讀取最新快照</button></section>
+    <section class="trip-console"><div class="console-head"><div><p class="kicker">本次路線</p><h2 id="journey-title">吉安 → 瑞穗</h2></div><div class="direction-tabs"><button id="outbound" aria-pressed="true">去程</button><button id="inbound" aria-pressed="false">回程</button></div></div><div class="mode-note" id="mode-note">選一班列車，即可查看它的官方動態、完整站序與沿線天氣。</div><div class="nearby-heading"><div><p class="kicker">相鄰班次</p><h3>選擇要看的列車</h3></div><span id="collection-info"></span></div><div id="train-picker" class="train-picker" aria-label="相鄰班次"></div><div id="route-timeline" class="route-timeline" aria-label="相鄰列車時間軸"></div><div id="selected-train" class="selected-train"></div></section>
+    <div id="weather" hidden></div><span id="weather-note" hidden></span>
+    <section class="rail-notice"><span class="kicker">路線公告</span><p id="rail-status" class="rail-status">尚未取得</p></section>
+    <details class="method"><summary>資料來源與更新方式</summary><div id="method-copy"><p>資料來自國營臺灣鐵路與中央氣象署。列車動態以官方回報為準；灰色小火車只代表依時刻推估的位置。</p></div></details>
     <footer>資料來源：<a href="https://www.railway.gov.tw/tra-tip-web/tip" target="_blank" rel="noopener">國營臺灣鐵路</a> · <a href="https://www.cwa.gov.tw/" target="_blank" rel="noopener">中央氣象署</a></footer>
-  </main><script type="module" src="app.js?v=202609152220"></script>
+  </main><script type="module" src="app.js?v=202609160930"></script>
 </body></html>
