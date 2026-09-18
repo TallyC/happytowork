@@ -1,7 +1,7 @@
 {
   "days": {
     "2026-09-19": {
-      "checkedAt": "2026-09-18T17:05:27.473Z",
+      "checkedAt": "2026-09-18T17:52:35.629Z",
       "trains": [
         {
           "no": "4514",
@@ -105,7 +105,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-09-18T17:04:15.291Z",
+          "statusCheckedAt": "2026-09-18T17:51:24.449Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/19&trainNo=4514"
         },
         {
@@ -270,7 +270,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-09-18T17:04:18.196Z",
+          "statusCheckedAt": "2026-09-18T17:51:27.318Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/19&trainNo=306"
         },
         {
@@ -447,7 +447,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-09-18T17:04:20.989Z",
+          "statusCheckedAt": "2026-09-18T17:51:29.900Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/19&trainNo=4537"
         },
         {
@@ -630,7 +630,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-09-18T17:04:23.697Z",
+          "statusCheckedAt": "2026-09-18T17:51:32.468Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/19&trainNo=431"
         },
         {
@@ -735,7 +735,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-09-18T17:04:26.464Z",
+          "statusCheckedAt": "2026-09-18T17:51:35.042Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/09/19&trainNo=4543"
         }
       ],
@@ -1048,7 +1048,7 @@
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-09-18T17:04:28.354Z",
+          "checkedAt": "2026-09-18T17:51:37.345Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -1367,7 +1367,7 @@
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-09-18T17:04:55.161Z",
+          "checkedAt": "2026-09-18T17:52:03.450Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -1696,29 +1696,13 @@
               "departure": "20:36",
               "arrival": "21:37",
               "summary": "自強(3000) 445 ( 新左營 → 樹林 ) 大學生5折"
-            },
-            {
-              "title": "區間快 4041",
-              "no": "4041",
-              "type": "區間快",
-              "departure": "21:20",
-              "arrival": "22:29",
-              "summary": "區間快 4041 ( 臺東 → 樹林 )"
-            },
-            {
-              "title": "普悠瑪 447",
-              "no": "447",
-              "type": "普悠瑪",
-              "departure": "21:53",
-              "arrival": "22:49",
-              "summary": "普悠瑪 447 ( 臺東 → 樹林 ) 大學生5折"
             }
           ],
           "window": [
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-09-18T17:04:58.691Z",
+          "checkedAt": "2026-09-18T17:52:07.216Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -2077,7 +2061,7 @@
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-09-18T17:05:25.463Z",
+          "checkedAt": "2026-09-18T17:52:33.618Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         }
       ]
@@ -5217,13 +5201,13 @@
       ]
     }
   },
-  "attemptedAt": "2026-09-18T17:04:09.399Z",
+  "attemptedAt": "2026-09-18T17:51:18.790Z",
   "errors": [
     "2026-09-19 452 動態：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
     "2026-09-19 452 動態：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n"
   ],
   "rail": {
     "text": "全線運行正常。",
-    "checkedAt": "2026-09-18T17:06:03.994Z"
+    "checkedAt": "2026-09-18T17:52:36.339Z"
   }
 }
