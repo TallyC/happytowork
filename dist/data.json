@@ -2720,7 +2720,8 @@
           "checkedAt": "2026-09-20T10:32:15.068Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         }
-      ]
+      ],
+      "error": true
     },
     "2026-09-21": {
       "checkedAt": "2026-09-20T10:32:48.520Z",
@@ -4688,40 +4689,8 @@
   "weather": {
     "吉安鄉": {
       "url": "https://www.cwa.gov.tw/V8/C/W/Town/Town.html?TID=1001505",
-      "checkedAt": "2026-09-20T10:32:56.631Z",
+      "checkedAt": "2026-09-20T14:25:20.984Z",
       "hours": [
-        {
-          "date": "2026-09-20",
-          "time": "18:00",
-          "temperature": "28",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-20",
-          "time": "19:00",
-          "temperature": "27",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-20",
-          "time": "20:00",
-          "temperature": "27",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-20",
-          "time": "21:00",
-          "temperature": "26",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
         {
           "date": "2026-09-20",
           "time": "22:00",
@@ -4892,7 +4861,31 @@
         },
         {
           "date": "2026-09-21",
+          "time": "19:00",
+          "temperature": "26",
+          "rain": "20%",
+          "description": "陰",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-21",
+          "time": "20:00",
+          "temperature": "26",
+          "rain": "20%",
+          "description": "陰",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-21",
           "time": "21:00",
+          "temperature": "25",
+          "rain": "10%",
+          "description": "陰",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-21",
+          "time": "22:00",
           "temperature": "25",
           "rain": "10%",
           "description": "陰",
@@ -5006,6 +4999,22 @@
           "date": "2026-09-23",
           "time": "15:00",
           "temperature": "29",
+          "rain": "10%",
+          "description": "晴",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-09-23",
+          "time": "18:00",
+          "temperature": "27",
+          "rain": "10%",
+          "description": "晴",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-09-23",
+          "time": "21:00",
+          "temperature": "25",
           "rain": "10%",
           "description": "晴",
           "wind": "≤1 級"
@@ -5014,40 +5023,8 @@
     },
     "瑞穗鄉": {
       "url": "https://www.cwa.gov.tw/V8/C/W/Town/Town.html?TID=1001509",
-      "checkedAt": "2026-09-20T10:33:00.669Z",
+      "checkedAt": "2026-09-20T14:25:24.542Z",
       "hours": [
-        {
-          "date": "2026-09-20",
-          "time": "18:00",
-          "temperature": "27",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-20",
-          "time": "19:00",
-          "temperature": "26",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-20",
-          "time": "20:00",
-          "temperature": "26",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-09-20",
-          "time": "21:00",
-          "temperature": "25",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "≤1 級"
-        },
         {
           "date": "2026-09-20",
           "time": "22:00",
@@ -5218,7 +5195,31 @@
         },
         {
           "date": "2026-09-21",
+          "time": "19:00",
+          "temperature": "25",
+          "rain": "20%",
+          "description": "陰",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-21",
+          "time": "20:00",
+          "temperature": "25",
+          "rain": "20%",
+          "description": "陰",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-21",
           "time": "21:00",
+          "temperature": "24",
+          "rain": "20%",
+          "description": "陰",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-21",
+          "time": "22:00",
           "temperature": "24",
           "rain": "20%",
           "description": "陰",
@@ -5334,46 +5335,30 @@
           "temperature": "28",
           "rain": "10%",
           "description": "陰",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-09-23",
+          "time": "18:00",
+          "temperature": "25",
+          "rain": "10%",
+          "description": "多雲",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-09-23",
+          "time": "21:00",
+          "temperature": "24",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "≤1 級"
         }
       ]
     },
     "花蓮市": {
       "url": "https://www.cwa.gov.tw/V8/C/W/Town/Town.html?TID=1001501",
-      "checkedAt": "2026-09-20T10:33:03.979Z",
+      "checkedAt": "2026-09-20T14:25:28.189Z",
       "hours": [
-        {
-          "date": "2026-09-20",
-          "time": "18:00",
-          "temperature": "28",
-          "rain": "10%",
-          "description": "晴",
-          "wind": "3 級"
-        },
-        {
-          "date": "2026-09-20",
-          "time": "19:00",
-          "temperature": "28",
-          "rain": "10%",
-          "description": "晴",
-          "wind": "3 級"
-        },
-        {
-          "date": "2026-09-20",
-          "time": "20:00",
-          "temperature": "27",
-          "rain": "10%",
-          "description": "晴",
-          "wind": "3 級"
-        },
-        {
-          "date": "2026-09-20",
-          "time": "21:00",
-          "temperature": "27",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
         {
           "date": "2026-09-20",
           "time": "22:00",
@@ -5544,7 +5529,31 @@
         },
         {
           "date": "2026-09-21",
+          "time": "19:00",
+          "temperature": "27",
+          "rain": "20%",
+          "description": "陰",
+          "wind": "3 級"
+        },
+        {
+          "date": "2026-09-21",
+          "time": "20:00",
+          "temperature": "27",
+          "rain": "20%",
+          "description": "陰",
+          "wind": "3 級"
+        },
+        {
+          "date": "2026-09-21",
           "time": "21:00",
+          "temperature": "26",
+          "rain": "10%",
+          "description": "陰",
+          "wind": "3 級"
+        },
+        {
+          "date": "2026-09-21",
+          "time": "22:00",
           "temperature": "26",
           "rain": "10%",
           "description": "陰",
@@ -5661,14 +5670,40 @@
           "rain": "20%",
           "description": "晴",
           "wind": "2 級"
+        },
+        {
+          "date": "2026-09-23",
+          "time": "18:00",
+          "temperature": "27",
+          "rain": "20%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-09-23",
+          "time": "21:00",
+          "temperature": "26",
+          "rain": "10%",
+          "description": "多雲",
+          "wind": "2 級"
         }
       ]
     }
   },
-  "attemptedAt": "2026-09-20T10:31:00.391Z",
-  "errors": [],
+  "attemptedAt": "2026-09-20T14:21:01.720Z",
+  "errors": [
+    "2026-09-20 4514：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-09-20 306：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-09-20 4537：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-09-20 431：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-09-20 4543：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-09-20 hualien-taipei outbound：locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#startStation')\n",
+    "2026-09-20 hualien-taipei inbound：locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#startStation')\n",
+    "2026-09-20 hualien-luodong outbound：locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#startStation')\n",
+    "2026-09-20 hualien-luodong inbound：locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#startStation')\n"
+  ],
   "rail": {
     "text": "全線運行正常。",
-    "checkedAt": "2026-09-20T10:32:49.968Z"
+    "checkedAt": "2026-09-20T14:25:12.913Z"
   }
 }
