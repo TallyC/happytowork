@@ -1,7 +1,7 @@
 {
   "days": {
     "2026-10-07": {
-      "checkedAt": "2026-10-06T18:37:40.698Z",
+      "checkedAt": "2026-10-06T18:54:43.278Z",
       "trains": [
         {
           "no": "4514",
@@ -105,7 +105,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-10-06T18:37:12.772Z",
+          "statusCheckedAt": "2026-10-06T18:54:15.637Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/10/07&trainNo=4514"
         },
         {
@@ -270,7 +270,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-10-06T18:37:15.406Z",
+          "statusCheckedAt": "2026-10-06T18:54:18.452Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/10/07&trainNo=306"
         },
         {
@@ -447,7 +447,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-10-06T18:37:18.038Z",
+          "statusCheckedAt": "2026-10-06T18:54:21.053Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/10/07&trainNo=4537"
         },
         {
@@ -630,7 +630,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-10-06T18:37:20.634Z",
+          "statusCheckedAt": "2026-10-06T18:54:23.725Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/10/07&trainNo=431"
         },
         {
@@ -735,7 +735,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-10-06T18:37:23.264Z",
+          "statusCheckedAt": "2026-10-06T18:54:26.330Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/10/07&trainNo=4543"
         }
       ],
@@ -954,69 +954,13 @@
               "departure": "18:15",
               "arrival": "20:43",
               "summary": "自強(3000) 285 ( 花蓮 → 彰化 ) 大學生5折"
-            },
-            {
-              "title": "普悠瑪 235",
-              "no": "235",
-              "type": "普悠瑪",
-              "departure": "18:32",
-              "arrival": "21:19",
-              "summary": "普悠瑪 235 ( 花蓮 → 樹林 ) 大學生5折"
-            },
-            {
-              "title": "自強(3000) 439",
-              "no": "439",
-              "type": "自強(3000)",
-              "departure": "19:06",
-              "arrival": "21:34",
-              "summary": "自強(3000) 439 ( 臺東 → 樹林 ) 大學生7折"
-            },
-            {
-              "title": "自強(3000) 441",
-              "no": "441",
-              "type": "自強(3000)",
-              "departure": "19:19",
-              "arrival": "21:38",
-              "summary": "自強(3000) 441 ( 新左營 → 樹林 ) 大學生7折"
-            },
-            {
-              "title": "區間快 4037",
-              "no": "4037",
-              "type": "區間快",
-              "departure": "19:24",
-              "arrival": "22:52",
-              "summary": "區間快 4037 ( 花蓮 → 桃園 )"
-            },
-            {
-              "title": "自強(3000) 445",
-              "no": "445",
-              "type": "自強(3000)",
-              "departure": "20:36",
-              "arrival": "23:07",
-              "summary": "自強(3000) 445 ( 新左營 → 樹林 ) 大學生5折"
-            },
-            {
-              "title": "區間快 4041",
-              "no": "4041",
-              "type": "區間快",
-              "departure": "21:20",
-              "arrival": "00:08",
-              "summary": "區間快 4041 ( 臺東 → 樹林 )"
-            },
-            {
-              "title": "普悠瑪 447",
-              "no": "447",
-              "type": "普悠瑪",
-              "departure": "21:53",
-              "arrival": "00:15",
-              "summary": "普悠瑪 447 ( 臺東 → 樹林 ) 大學生5折"
             }
           ],
           "window": [
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-10-06T18:37:25.540Z",
+          "checkedAt": "2026-10-06T18:54:28.828Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -1295,7 +1239,7 @@
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-10-06T18:37:30.042Z",
+          "checkedAt": "2026-10-06T18:54:33.450Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -1614,7 +1558,7 @@
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-10-06T18:37:34.203Z",
+          "checkedAt": "2026-10-06T18:54:37.797Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -1941,7 +1885,7 @@
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-10-06T18:37:38.694Z",
+          "checkedAt": "2026-10-06T18:54:41.268Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         }
       ]
@@ -5025,10 +4969,10 @@
       ]
     }
   },
-  "attemptedAt": "2026-10-06T18:37:06.680Z",
+  "attemptedAt": "2026-10-06T18:54:09.653Z",
   "errors": [],
   "rail": {
     "text": "2026/10/06 21:13 南迴線 : 電力設備異常",
-    "checkedAt": "2026-10-06T18:38:12.594Z"
+    "checkedAt": "2026-10-06T18:54:43.968Z"
   }
 }
