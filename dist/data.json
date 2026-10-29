@@ -1,7 +1,7 @@
 {
   "days": {
     "2026-10-30": {
-      "checkedAt": "2026-10-29T18:31:46.835Z",
+      "checkedAt": "2026-10-29T18:57:02.657Z",
       "trains": [
         {
           "no": "4514",
@@ -105,7 +105,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-10-29T18:31:17.394Z",
+          "statusCheckedAt": "2026-10-29T18:56:35.467Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/10/30&trainNo=4514"
         },
         {
@@ -270,7 +270,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-10-29T18:31:20.244Z",
+          "statusCheckedAt": "2026-10-29T18:56:38.061Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/10/30&trainNo=306"
         },
         {
@@ -447,7 +447,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-10-29T18:31:22.855Z",
+          "statusCheckedAt": "2026-10-29T18:56:40.596Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/10/30&trainNo=4537"
         },
         {
@@ -630,7 +630,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-10-29T18:31:25.444Z",
+          "statusCheckedAt": "2026-10-29T18:56:43.079Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/10/30&trainNo=431"
         },
         {
@@ -735,7 +735,7 @@
               "status": null
             }
           ],
-          "statusCheckedAt": "2026-10-29T18:31:28.091Z",
+          "statusCheckedAt": "2026-10-29T18:56:45.590Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytrainno?rideDate=2026/10/30&trainNo=4543"
         }
       ],
@@ -1056,7 +1056,7 @@
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-10-29T18:31:31.491Z",
+          "checkedAt": "2026-10-29T18:56:46.987Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -1185,189 +1185,13 @@
               "departure": "12:08",
               "arrival": "15:31",
               "summary": "區間快 4030 ( 樹林 → 花蓮 )"
-            },
-            {
-              "title": "自強(3000) 426",
-              "no": "426",
-              "type": "自強(3000)",
-              "departure": "12:40",
-              "arrival": "14:55",
-              "summary": "自強(3000) 426 ( 樹林 → 臺東 )"
-            },
-            {
-              "title": "普悠瑪 228",
-              "no": "228",
-              "type": "普悠瑪",
-              "departure": "13:10",
-              "arrival": "15:45",
-              "summary": "普悠瑪 228 ( 樹林 → 花蓮 )"
-            },
-            {
-              "title": "自強(3000) 428",
-              "no": "428",
-              "type": "自強(3000)",
-              "departure": "13:52",
-              "arrival": "16:21",
-              "summary": "自強(3000) 428 ( 樹林 → 新左營 )"
-            },
-            {
-              "title": "自強(3000) 232",
-              "no": "232",
-              "type": "自強(3000)",
-              "departure": "14:15",
-              "arrival": "16:36",
-              "summary": "自強(3000) 232 ( 樹林 → 壽豐 ) 大學生8折"
-            },
-            {
-              "title": "區間快 4032",
-              "no": "4032",
-              "type": "區間快",
-              "departure": "14:50",
-              "arrival": "18:14",
-              "summary": "區間快 4032 ( 樹林 → 花蓮 )"
-            },
-            {
-              "title": "自強(3000) 432",
-              "no": "432",
-              "type": "自強(3000)",
-              "departure": "15:00",
-              "arrival": "17:26",
-              "summary": "自強(3000) 432 ( 樹林 → 新左營 )"
-            },
-            {
-              "title": "普悠瑪 236",
-              "no": "236",
-              "type": "普悠瑪",
-              "departure": "15:43",
-              "arrival": "18:01",
-              "summary": "普悠瑪 236 ( 樹林 → 花蓮 ) 大學生8折"
-            },
-            {
-              "title": "自強 238",
-              "no": "238",
-              "type": "自強",
-              "departure": "15:53",
-              "arrival": "19:12",
-              "summary": "自強 238 ( 樹林 → 花蓮 ) 大學生7折"
-            },
-            {
-              "title": "自強(3000) 434",
-              "no": "434",
-              "type": "自強(3000)",
-              "departure": "16:02",
-              "arrival": "18:26",
-              "summary": "自強(3000) 434 ( 樹林 → 新左營 )"
-            },
-            {
-              "title": "自強(3000) 442",
-              "no": "442",
-              "type": "自強(3000)",
-              "departure": "17:05",
-              "arrival": "19:43",
-              "summary": "自強(3000) 442 ( 樹林 → 臺東 )"
-            },
-            {
-              "title": "普悠瑪 282",
-              "no": "282",
-              "type": "普悠瑪",
-              "departure": "17:40",
-              "arrival": "19:59",
-              "summary": "普悠瑪 282 ( 彰化 → 花蓮 )"
-            },
-            {
-              "title": "自強(3000) 436",
-              "no": "436",
-              "type": "自強(3000)",
-              "departure": "18:00",
-              "arrival": "20:15",
-              "summary": "自強(3000) 436 ( 樹林 → 臺東 ) 大學生8折"
-            },
-            {
-              "title": "自強(3000) 438",
-              "no": "438",
-              "type": "自強(3000)",
-              "departure": "18:34",
-              "arrival": "20:49",
-              "summary": "自強(3000) 438 ( 樹林 → 臺東 )"
-            },
-            {
-              "title": "自強 246",
-              "no": "246",
-              "type": "自強",
-              "departure": "18:40",
-              "arrival": "22:00",
-              "summary": "自強 246 ( 樹林 → 花蓮 ) 大學生5折"
-            },
-            {
-              "title": "區間快 4046",
-              "no": "4046",
-              "type": "區間快",
-              "departure": "19:00",
-              "arrival": "22:31",
-              "summary": "區間快 4046 ( 新豐 → 花蓮 )"
-            },
-            {
-              "title": "自強(3000) 250",
-              "no": "250",
-              "type": "自強(3000)",
-              "departure": "19:05",
-              "arrival": "21:32",
-              "summary": "自強(3000) 250 ( 樹林 → 花蓮 ) 大學生8折"
-            },
-            {
-              "title": "太魯閣 248",
-              "no": "248",
-              "type": "太魯閣",
-              "departure": "19:25",
-              "arrival": "21:43",
-              "summary": "太魯閣 248 ( 樹林 → 花蓮 )"
-            },
-            {
-              "title": "普悠瑪 448",
-              "no": "448",
-              "type": "普悠瑪",
-              "departure": "20:04",
-              "arrival": "22:21",
-              "summary": "普悠瑪 448 ( 樹林 → 臺東 )"
-            },
-            {
-              "title": "自強(3000) 252",
-              "no": "252",
-              "type": "自強(3000)",
-              "departure": "20:40",
-              "arrival": "23:11",
-              "summary": "自強(3000) 252 ( 樹林 → 壽豐 ) 大學生8折"
-            },
-            {
-              "title": "莒光 554",
-              "no": "554",
-              "type": "莒光",
-              "departure": "21:05",
-              "arrival": "00:53",
-              "summary": "莒光 554 ( 潮州 → 花蓮 ) 大學生5折"
-            },
-            {
-              "title": "普悠瑪 288",
-              "no": "288",
-              "type": "普悠瑪",
-              "departure": "21:20",
-              "arrival": "23:39",
-              "summary": "普悠瑪 288 ( 彰化 → 花蓮 )"
-            },
-            {
-              "title": "普悠瑪 256",
-              "no": "256",
-              "type": "普悠瑪",
-              "departure": "22:01",
-              "arrival": "00:24",
-              "summary": "普悠瑪 256 ( 樹林 → 花蓮 ) 大學生7折"
             }
           ],
           "window": [
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-10-29T18:31:35.358Z",
+          "checkedAt": "2026-10-29T18:56:51.527Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -1383,7 +1207,30 @@
               "type": "區間",
               "departure": "04:55",
               "arrival": "06:24",
-              "summary": "區間 4117 ( 花蓮 → 頭城 )"
+              "summary": "區間 4117 ( 花蓮 → 頭城 )",
+              "status": null,
+              "lastReported": null,
+              "milestones": [
+                {
+                  "name": "花蓮",
+                  "arrival": "04:55",
+                  "departure": "04:55",
+                  "status": null
+                },
+                {
+                  "name": "羅東",
+                  "arrival": "06:24",
+                  "departure": "06:25",
+                  "status": null
+                },
+                {
+                  "name": "宜蘭",
+                  "arrival": "06:35",
+                  "departure": "06:36",
+                  "status": null
+                }
+              ],
+              "statusCheckedAt": "2026-10-29T18:56:57.483Z"
             },
             {
               "title": "普悠瑪 203",
@@ -1718,7 +1565,7 @@
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-10-29T18:31:40.139Z",
+          "checkedAt": "2026-10-29T18:56:57.484Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         },
         {
@@ -2069,7 +1916,7 @@
             "00:00",
             "23:59"
           ],
-          "checkedAt": "2026-10-29T18:31:44.831Z",
+          "checkedAt": "2026-10-29T18:57:00.651Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         }
       ]
@@ -4961,10 +4808,10 @@
       ]
     }
   },
-  "attemptedAt": "2026-10-29T18:31:12.011Z",
+  "attemptedAt": "2026-10-29T18:56:31.142Z",
   "errors": [],
   "rail": {
     "text": "全線運行正常。",
-    "checkedAt": "2026-10-29T18:32:19.407Z"
+    "checkedAt": "2026-10-29T18:57:03.209Z"
   }
 }
