@@ -6,9 +6,9 @@
 
 ## 免費部署
 
-使用公開 GitHub 儲存庫、GitHub Actions 標準 Ubuntu runner 與 GitHub Pages。Settings → Pages → Source 選 GitHub Actions，執行「更新通勤資訊與網頁」。不需要 API 金鑰或付費服務。公開儲存庫的程式、班次設定和氣象資料均公開。
+使用公開 GitHub 儲存庫、GitHub Actions Ubuntu 24.04 runner（固定版本；ubuntu-latest 已升到 26.04，Playwright 尚不支援） 與 GitHub Pages。Settings → Pages → Source 選 GitHub Actions，執行「更新通勤資訊與網頁」。不需要 API 金鑰或付費服務。公開儲存庫的程式、班次設定和氣象資料均公開。
 
-排程：台灣時間每天 05:07–07:57、15:07–18:57 每十分鐘一次，21:13 預抓隔日資訊。Actions 排程可能延遲或漏跑，不可保證即時；公開儲存庫長期無活動可能停用排程，請定期檢查 Actions。頁面每分鐘只下載 data.json，不會觸發爬取。手動重新擷取請至 Actions 執行 workflow_dispatch。
+排程：台灣時間每天 05:07–07:57、14:07–23:57 每十分鐘一次，21:13 預抓隔日資訊。Actions 排程可能延遲或漏跑，不可保證即時；公開儲存庫長期無活動可能停用排程，請定期檢查 Actions。頁面每分鐘只下載 data.json，不會觸發爬取。手動重新擷取請至 Actions 執行 workflow_dispatch。
 
 ## 本機
 

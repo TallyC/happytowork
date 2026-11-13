@@ -20,7 +20,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # ubuntu-latest 已改為 26.04，Playwright 1.58.2 不支援
     timeout-minutes: 12
     environment:
       name: github-pages
