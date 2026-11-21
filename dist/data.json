@@ -2101,7 +2101,8 @@
           "checkedAt": "2026-11-21T03:05:33.896Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         }
-      ]
+      ],
+      "error": true
     },
     "2026-11-22": {
       "checkedAt": "2026-11-20T21:05:44.323Z",
@@ -3671,195 +3672,108 @@
           "checkedAt": "2026-11-20T21:05:42.317Z",
           "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime"
         }
-      ]
+      ],
+      "error": true
     }
   },
   "weather": {
     "吉安鄉": {
       "url": "https://www.cwa.gov.tw/V8/C/W/Town/Town.html?TID=1001505",
-      "checkedAt": "2026-11-21T03:05:40.906Z",
+      "checkedAt": "2026-11-21T14:12:56.242Z",
       "hours": [
         {
           "date": "2026-11-21",
-          "time": "11:00",
-          "temperature": "19",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "12:00",
-          "temperature": "19",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "13:00",
-          "temperature": "19",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "14:00",
-          "temperature": "18",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "15:00",
-          "temperature": "18",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "16:00",
-          "temperature": "17",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "17:00",
-          "temperature": "17",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "18:00",
-          "temperature": "16",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "19:00",
-          "temperature": "16",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "20:00",
-          "temperature": "15",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "21:00",
-          "temperature": "15",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
           "time": "22:00",
-          "temperature": "15",
-          "rain": "10%",
-          "description": "多雲",
+          "temperature": "16",
+          "rain": "20%",
+          "description": "陰",
           "wind": "2 級"
         },
         {
           "date": "2026-11-21",
           "time": "23:00",
-          "temperature": "15",
-          "rain": "10%",
-          "description": "多雲",
+          "temperature": "16",
+          "rain": "20%",
+          "description": "陰",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "00:00",
-          "temperature": "15",
-          "rain": "0%",
+          "temperature": "16",
+          "rain": "20%",
           "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "01:00",
-          "temperature": "15",
-          "rain": "0%",
+          "temperature": "16",
+          "rain": "20%",
           "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "02:00",
-          "temperature": "14",
-          "rain": "0%",
+          "temperature": "16",
+          "rain": "20%",
           "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "03:00",
-          "temperature": "14",
-          "rain": "0%",
+          "temperature": "16",
+          "rain": "10%",
           "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "04:00",
-          "temperature": "14",
-          "rain": "0%",
+          "temperature": "16",
+          "rain": "10%",
           "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "05:00",
-          "temperature": "14",
-          "rain": "0%",
+          "temperature": "16",
+          "rain": "10%",
           "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "06:00",
-          "temperature": "14",
-          "rain": "0%",
-          "description": "晴",
+          "temperature": "15",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "07:00",
-          "temperature": "14",
-          "rain": "0%",
-          "description": "晴",
+          "temperature": "16",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "08:00",
-          "temperature": "17",
-          "rain": "0%",
-          "description": "晴",
+          "temperature": "18",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "09:00",
           "temperature": "19",
-          "rain": "0%",
+          "rain": "10%",
           "description": "晴",
           "wind": "2 級"
         },
@@ -3867,71 +3781,127 @@
           "date": "2026-11-22",
           "time": "10:00",
           "temperature": "21",
-          "rain": "0%",
+          "rain": "10%",
           "description": "晴",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "11:00",
-          "temperature": "22",
-          "rain": "0%",
+          "temperature": "21",
+          "rain": "10%",
           "description": "晴",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "12:00",
-          "temperature": "22",
-          "rain": "0%",
+          "temperature": "21",
+          "rain": "10%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "13:00",
+          "temperature": "21",
+          "rain": "10%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "14:00",
+          "temperature": "21",
+          "rain": "10%",
           "description": "晴",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "15:00",
-          "temperature": "21",
-          "rain": "0%",
-          "description": "多雲",
+          "temperature": "20",
+          "rain": "10%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "16:00",
+          "temperature": "20",
+          "rain": "10%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "17:00",
+          "temperature": "19",
+          "rain": "10%",
+          "description": "晴",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "18:00",
           "temperature": "19",
-          "rain": "10%",
+          "rain": "20%",
           "description": "晴",
-          "wind": "≤1 級"
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "19:00",
+          "temperature": "18",
+          "rain": "20%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "20:00",
+          "temperature": "18",
+          "rain": "20%",
+          "description": "晴",
+          "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "21:00",
           "temperature": "18",
           "rain": "10%",
-          "description": "晴",
-          "wind": "2 級"
+          "description": "多雲",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "22:00",
+          "temperature": "18",
+          "rain": "10%",
+          "description": "多雲",
+          "wind": "≤1 級"
         },
         {
           "date": "2026-11-23",
           "time": "00:00",
           "temperature": "18",
-          "rain": "10%",
-          "description": "晴",
+          "rain": "20%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-23",
           "time": "03:00",
           "temperature": "17",
-          "rain": "10%",
-          "description": "晴",
-          "wind": "2 級"
+          "rain": "20%",
+          "description": "多雲",
+          "wind": "≤1 級"
         },
         {
           "date": "2026-11-23",
           "time": "06:00",
           "temperature": "17",
-          "rain": "10%",
+          "rain": "20%",
           "description": "晴",
           "wind": "2 級"
         },
@@ -3939,23 +3909,23 @@
           "date": "2026-11-23",
           "time": "09:00",
           "temperature": "22",
-          "rain": "10%",
-          "description": "陰",
+          "rain": "20%",
+          "description": "晴",
           "wind": "≤1 級"
         },
         {
           "date": "2026-11-23",
           "time": "12:00",
           "temperature": "24",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
+          "rain": "20%",
+          "description": "晴",
+          "wind": "≤1 級"
         },
         {
           "date": "2026-11-23",
           "time": "15:00",
           "temperature": "23",
-          "rain": "10%",
+          "rain": "20%",
           "description": "多雲",
           "wind": "2 級"
         },
@@ -3964,16 +3934,16 @@
           "time": "18:00",
           "temperature": "21",
           "rain": "10%",
-          "description": "晴",
+          "description": "多雲",
           "wind": "≤1 級"
         },
         {
           "date": "2026-11-23",
           "time": "21:00",
-          "temperature": "20",
-          "rain": "20%",
+          "temperature": "21",
+          "rain": "10%",
           "description": "晴",
-          "wind": "≤1 級"
+          "wind": "2 級"
         },
         {
           "date": "2026-11-24",
@@ -3981,12 +3951,12 @@
           "temperature": "20",
           "rain": "20%",
           "description": "晴",
-          "wind": "2 級"
+          "wind": "≤1 級"
         },
         {
           "date": "2026-11-24",
           "time": "03:00",
-          "temperature": "19",
+          "temperature": "20",
           "rain": "20%",
           "description": "晴",
           "wind": "≤1 級"
@@ -3996,180 +3966,124 @@
           "time": "06:00",
           "temperature": "19",
           "rain": "20%",
-          "description": "多雲",
-          "wind": "2 級"
+          "description": "晴",
+          "wind": "≤1 級"
         },
         {
           "date": "2026-11-24",
           "time": "09:00",
           "temperature": "22",
           "rain": "20%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "12:00",
+          "temperature": "24",
+          "rain": "20%",
           "description": "多雲",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "15:00",
+          "temperature": "23",
+          "rain": "30%",
+          "description": "短暫陣雨",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "18:00",
+          "temperature": "21",
+          "rain": "30%",
+          "description": "短暫陣雨",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "21:00",
+          "temperature": "20",
+          "rain": "20%",
+          "description": "陰",
           "wind": "2 級"
         }
       ]
     },
     "瑞穗鄉": {
       "url": "https://www.cwa.gov.tw/V8/C/W/Town/Town.html?TID=1001509",
-      "checkedAt": "2026-11-21T03:05:43.483Z",
+      "checkedAt": "2026-11-21T14:13:00.194Z",
       "hours": [
         {
           "date": "2026-11-21",
-          "time": "11:00",
-          "temperature": "18",
+          "time": "22:00",
+          "temperature": "14",
           "rain": "10%",
           "description": "陰",
           "wind": "≤1 級"
         },
         {
           "date": "2026-11-21",
-          "time": "12:00",
-          "temperature": "19",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "13:00",
-          "temperature": "18",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "14:00",
-          "temperature": "18",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "15:00",
-          "temperature": "17",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "16:00",
-          "temperature": "16",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "17:00",
-          "temperature": "15",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "18:00",
-          "temperature": "15",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "19:00",
-          "temperature": "14",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "20:00",
-          "temperature": "14",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "21:00",
-          "temperature": "14",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "22:00",
-          "temperature": "13",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
           "time": "23:00",
-          "temperature": "13",
+          "temperature": "14",
           "rain": "10%",
           "description": "陰",
-          "wind": "2 級"
+          "wind": "≤1 級"
         },
         {
           "date": "2026-11-22",
           "time": "00:00",
-          "temperature": "13",
-          "rain": "0%",
-          "description": "多雲",
+          "temperature": "14",
+          "rain": "20%",
+          "description": "陰",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "01:00",
-          "temperature": "13",
-          "rain": "0%",
-          "description": "多雲",
+          "temperature": "14",
+          "rain": "20%",
+          "description": "陰",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "02:00",
-          "temperature": "13",
-          "rain": "0%",
-          "description": "多雲",
+          "temperature": "14",
+          "rain": "20%",
+          "description": "陰",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "03:00",
-          "temperature": "13",
-          "rain": "0%",
-          "description": "晴",
+          "temperature": "14",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "04:00",
           "temperature": "13",
-          "rain": "0%",
-          "description": "晴",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "05:00",
-          "temperature": "12",
-          "rain": "0%",
-          "description": "晴",
+          "temperature": "13",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "06:00",
-          "temperature": "12",
-          "rain": "0%",
+          "temperature": "13",
+          "rain": "10%",
           "description": "晴",
           "wind": "2 級"
         },
@@ -4177,15 +4091,15 @@
           "date": "2026-11-22",
           "time": "07:00",
           "temperature": "13",
-          "rain": "0%",
+          "rain": "10%",
           "description": "晴",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "08:00",
-          "temperature": "14",
-          "rain": "0%",
+          "temperature": "15",
+          "rain": "10%",
           "description": "晴",
           "wind": "2 級"
         },
@@ -4193,7 +4107,7 @@
           "date": "2026-11-22",
           "time": "09:00",
           "temperature": "17",
-          "rain": "0%",
+          "rain": "10%",
           "description": "晴",
           "wind": "≤1 級"
         },
@@ -4201,23 +4115,39 @@
           "date": "2026-11-22",
           "time": "10:00",
           "temperature": "19",
-          "rain": "0%",
+          "rain": "10%",
           "description": "晴",
           "wind": "≤1 級"
         },
         {
           "date": "2026-11-22",
           "time": "11:00",
-          "temperature": "21",
-          "rain": "0%",
+          "temperature": "20",
+          "rain": "10%",
           "description": "晴",
           "wind": "≤1 級"
         },
         {
           "date": "2026-11-22",
           "time": "12:00",
-          "temperature": "21",
-          "rain": "0%",
+          "temperature": "20",
+          "rain": "10%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "13:00",
+          "temperature": "20",
+          "rain": "10%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "14:00",
+          "temperature": "19",
+          "rain": "10%",
           "description": "晴",
           "wind": "2 級"
         },
@@ -4225,16 +4155,48 @@
           "date": "2026-11-22",
           "time": "15:00",
           "temperature": "19",
-          "rain": "0%",
-          "description": "多雲",
+          "rain": "10%",
+          "description": "陰",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "16:00",
+          "temperature": "18",
+          "rain": "10%",
+          "description": "陰",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "17:00",
+          "temperature": "17",
+          "rain": "10%",
+          "description": "陰",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "18:00",
           "temperature": "17",
-          "rain": "10%",
-          "description": "陰",
+          "rain": "20%",
+          "description": "多雲",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "19:00",
+          "temperature": "16",
+          "rain": "20%",
+          "description": "多雲",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "20:00",
+          "temperature": "16",
+          "rain": "20%",
+          "description": "多雲",
           "wind": "≤1 級"
         },
         {
@@ -4242,12 +4204,12 @@
           "time": "21:00",
           "temperature": "16",
           "rain": "10%",
-          "description": "晴",
+          "description": "多雲",
           "wind": "≤1 級"
         },
         {
-          "date": "2026-11-23",
-          "time": "00:00",
+          "date": "2026-11-22",
+          "time": "22:00",
           "temperature": "16",
           "rain": "10%",
           "description": "多雲",
@@ -4255,9 +4217,17 @@
         },
         {
           "date": "2026-11-23",
-          "time": "03:00",
+          "time": "00:00",
           "temperature": "16",
-          "rain": "10%",
+          "rain": "20%",
+          "description": "晴",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "03:00",
+          "temperature": "15",
+          "rain": "20%",
           "description": "晴",
           "wind": "≤1 級"
         },
@@ -4265,7 +4235,7 @@
           "date": "2026-11-23",
           "time": "06:00",
           "temperature": "15",
-          "rain": "10%",
+          "rain": "20%",
           "description": "晴",
           "wind": "≤1 級"
         },
@@ -4273,24 +4243,24 @@
           "date": "2026-11-23",
           "time": "09:00",
           "temperature": "19",
-          "rain": "10%",
-          "description": "多雲",
+          "rain": "20%",
+          "description": "晴",
           "wind": "≤1 級"
         },
         {
           "date": "2026-11-23",
           "time": "12:00",
-          "temperature": "24",
-          "rain": "20%",
-          "description": "多雲",
+          "temperature": "23",
+          "rain": "10%",
+          "description": "晴",
           "wind": "≤1 級"
         },
         {
           "date": "2026-11-23",
           "time": "15:00",
           "temperature": "22",
-          "rain": "10%",
-          "description": "陰",
+          "rain": "20%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
@@ -4315,14 +4285,14 @@
           "temperature": "18",
           "rain": "20%",
           "description": "晴",
-          "wind": "2 級"
+          "wind": "≤1 級"
         },
         {
           "date": "2026-11-24",
           "time": "03:00",
           "temperature": "18",
           "rain": "20%",
-          "description": "多雲",
+          "description": "晴",
           "wind": "≤1 級"
         },
         {
@@ -4330,8 +4300,8 @@
           "time": "06:00",
           "temperature": "17",
           "rain": "20%",
-          "description": "多雲",
-          "wind": "2 級"
+          "description": "晴",
+          "wind": "≤1 級"
         },
         {
           "date": "2026-11-24",
@@ -4340,112 +4310,104 @@
           "rain": "20%",
           "description": "晴",
           "wind": "≤1 級"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "12:00",
+          "temperature": "23",
+          "rain": "50%",
+          "description": "短暫陣雨",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "15:00",
+          "temperature": "21",
+          "rain": "30%",
+          "description": "短暫陣雨",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "18:00",
+          "temperature": "19",
+          "rain": "20%",
+          "description": "陰",
+          "wind": "≤1 級"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "21:00",
+          "temperature": "18",
+          "rain": "20%",
+          "description": "陰",
+          "wind": "2 級"
         }
       ]
     },
     "花蓮市": {
       "url": "https://www.cwa.gov.tw/V8/C/W/Town/Town.html?TID=1001501",
-      "checkedAt": "2026-11-21T03:05:46.067Z",
+      "checkedAt": "2026-11-21T14:13:03.471Z",
       "hours": [
         {
           "date": "2026-11-21",
-          "time": "11:00",
-          "temperature": "19",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "12:00",
-          "temperature": "20",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "13:00",
-          "temperature": "19",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "14:00",
-          "temperature": "19",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "15:00",
-          "temperature": "19",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "16:00",
-          "temperature": "18",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "17:00",
-          "temperature": "18",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "18:00",
-          "temperature": "17",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "19:00",
-          "temperature": "17",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "20:00",
-          "temperature": "17",
-          "rain": "10%",
-          "description": "陰",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
-          "time": "21:00",
-          "temperature": "16",
-          "rain": "10%",
-          "description": "多雲",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-21",
           "time": "22:00",
-          "temperature": "16",
-          "rain": "10%",
+          "temperature": "17",
+          "rain": "20%",
           "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-21",
           "time": "23:00",
+          "temperature": "17",
+          "rain": "20%",
+          "description": "多雲",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "00:00",
+          "temperature": "17",
+          "rain": "20%",
+          "description": "多雲",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "01:00",
+          "temperature": "17",
+          "rain": "20%",
+          "description": "多雲",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "02:00",
+          "temperature": "17",
+          "rain": "20%",
+          "description": "多雲",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "03:00",
+          "temperature": "17",
+          "rain": "10%",
+          "description": "多雲",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "04:00",
+          "temperature": "17",
+          "rain": "10%",
+          "description": "多雲",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "05:00",
           "temperature": "16",
           "rain": "10%",
           "description": "多雲",
@@ -4453,111 +4415,71 @@
         },
         {
           "date": "2026-11-22",
-          "time": "00:00",
-          "temperature": "16",
-          "rain": "0%",
-          "description": "晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "01:00",
-          "temperature": "16",
-          "rain": "0%",
-          "description": "晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "02:00",
-          "temperature": "16",
-          "rain": "0%",
-          "description": "晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "03:00",
-          "temperature": "15",
-          "rain": "0%",
-          "description": "晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "04:00",
-          "temperature": "15",
-          "rain": "0%",
-          "description": "晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-22",
-          "time": "05:00",
-          "temperature": "15",
-          "rain": "0%",
-          "description": "晴",
-          "wind": "2 級"
-        },
-        {
-          "date": "2026-11-22",
           "time": "06:00",
-          "temperature": "15",
-          "rain": "0%",
-          "description": "晴",
+          "temperature": "16",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "07:00",
-          "temperature": "15",
-          "rain": "0%",
-          "description": "晴",
+          "temperature": "17",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "08:00",
-          "temperature": "17",
-          "rain": "0%",
-          "description": "晴",
+          "temperature": "18",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "09:00",
-          "temperature": "19",
-          "rain": "0%",
-          "description": "晴",
+          "temperature": "20",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "10:00",
           "temperature": "21",
-          "rain": "0%",
-          "description": "晴",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "11:00",
           "temperature": "22",
-          "rain": "0%",
-          "description": "晴",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
           "time": "12:00",
           "temperature": "22",
-          "rain": "0%",
-          "description": "晴",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-22",
-          "time": "15:00",
+          "time": "13:00",
+          "temperature": "22",
+          "rain": "10%",
+          "description": "多雲",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "14:00",
           "temperature": "21",
           "rain": "10%",
           "description": "多雲",
@@ -4565,9 +4487,49 @@
         },
         {
           "date": "2026-11-22",
-          "time": "18:00",
+          "time": "15:00",
+          "temperature": "21",
+          "rain": "10%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "16:00",
           "temperature": "20",
           "rain": "10%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "17:00",
+          "temperature": "20",
+          "rain": "10%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "18:00",
+          "temperature": "20",
+          "rain": "20%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "19:00",
+          "temperature": "19",
+          "rain": "20%",
+          "description": "晴",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "20:00",
+          "temperature": "19",
+          "rain": "20%",
           "description": "晴",
           "wind": "2 級"
         },
@@ -4576,39 +4538,47 @@
           "time": "21:00",
           "temperature": "19",
           "rain": "10%",
-          "description": "晴",
+          "description": "多雲",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "22:00",
+          "temperature": "19",
+          "rain": "10%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-23",
           "time": "00:00",
           "temperature": "19",
-          "rain": "10%",
-          "description": "晴",
+          "rain": "20%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-23",
           "time": "03:00",
           "temperature": "18",
-          "rain": "10%",
-          "description": "晴",
-          "wind": "2 級"
+          "rain": "20%",
+          "description": "多雲",
+          "wind": "≤1 級"
         },
         {
           "date": "2026-11-23",
           "time": "06:00",
           "temperature": "18",
-          "rain": "10%",
-          "description": "晴",
+          "rain": "20%",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-23",
           "time": "09:00",
           "temperature": "22",
-          "rain": "10%",
-          "description": "多雲",
+          "rain": "20%",
+          "description": "晴",
           "wind": "2 級"
         },
         {
@@ -4616,15 +4586,15 @@
           "time": "12:00",
           "temperature": "24",
           "rain": "10%",
-          "description": "多雲",
+          "description": "晴",
           "wind": "2 級"
         },
         {
           "date": "2026-11-23",
           "time": "15:00",
-          "temperature": "24",
-          "rain": "10%",
-          "description": "多雲",
+          "temperature": "23",
+          "rain": "20%",
+          "description": "晴",
           "wind": "2 級"
         },
         {
@@ -4632,14 +4602,14 @@
           "time": "18:00",
           "temperature": "22",
           "rain": "10%",
-          "description": "晴",
+          "description": "多雲",
           "wind": "2 級"
         },
         {
           "date": "2026-11-23",
           "time": "21:00",
           "temperature": "21",
-          "rain": "20%",
+          "rain": "10%",
           "description": "晴",
           "wind": "2 級"
         },
@@ -4670,18 +4640,69 @@
         {
           "date": "2026-11-24",
           "time": "09:00",
-          "temperature": "22",
+          "temperature": "23",
           "rain": "20%",
           "description": "晴",
           "wind": "2 級"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "12:00",
+          "temperature": "24",
+          "rain": "20%",
+          "description": "多雲",
+          "wind": "3 級"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "15:00",
+          "temperature": "23",
+          "rain": "30%",
+          "description": "短暫陣雨",
+          "wind": "3 級"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "18:00",
+          "temperature": "22",
+          "rain": "30%",
+          "description": "短暫陣雨",
+          "wind": "2 級"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "21:00",
+          "temperature": "21",
+          "rain": "20%",
+          "description": "陰",
+          "wind": "3 級"
         }
       ]
     }
   },
-  "attemptedAt": "2026-11-21T03:04:26.225Z",
-  "errors": [],
+  "attemptedAt": "2026-11-21T14:04:36.535Z",
+  "errors": [
+    "2026-11-21 4514：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-11-21 306：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-11-21 4537：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-11-21 431：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-11-21 4543：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-11-21 hualien-taipei outbound：locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#startStation')\n",
+    "2026-11-21 hualien-taipei inbound：locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#startStation')\n",
+    "2026-11-21 hualien-luodong outbound：locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#startStation')\n",
+    "2026-11-21 hualien-luodong inbound：locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#startStation')\n",
+    "2026-11-22 4514：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-11-22 306：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-11-22 4537：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-11-22 431：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-11-22 4543：locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator('table').nth(1) to be visible\n",
+    "2026-11-22 hualien-taipei outbound：locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#startStation')\n",
+    "2026-11-22 hualien-taipei inbound：locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#startStation')\n",
+    "2026-11-22 hualien-luodong outbound：locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#startStation')\n",
+    "2026-11-22 hualien-luodong inbound：locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#startStation')\n"
+  ],
   "rail": {
     "text": "全線運行正常。",
-    "checkedAt": "2026-11-21T03:05:36.941Z"
+    "checkedAt": "2026-11-21T14:12:50.493Z"
   }
 }
